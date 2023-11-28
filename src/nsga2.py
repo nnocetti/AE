@@ -104,7 +104,6 @@ def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
                     if ind != cp:
                         del ind.fitness.values
 
-
         # Evaluate the individuals with an invalid fitness
         invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
         fitnesses = toolbox.map(toolbox.evaluate, invalid_ind)
