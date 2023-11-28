@@ -1,9 +1,12 @@
 import pickle
 import os
 import sys
+import json
 
 from deap.tools import ParetoFront
 import matplotlib.pyplot as plt
+
+from evaluation import Evaluation
 
 
 def minimum(pop):
@@ -58,23 +61,33 @@ if os.path.isdir(arg):
             print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{minimum(pop): <20}{maximum(pop): <20}{len(unique(pop))}')
 else:
     instance, timestamp, runtime, cxpb, indpb, mu, ngen, seed, logbook, pop = load_file(arg)
-    file = os.path.basename(arg)
-    ind_unique = unique(pop)
-    print('file           instance       runtime        cxpb      indpb     mu        ngen      seed      min                 max                 unique')
-    print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{minimum(pop): <20}{maximum(pop): <20}{len(unique(ind_unique))}')
+    # file = os.path.basename(arg)
+    # ind_unique = unique(pop)
+    # print('file           instance       runtime        cxpb      indpb     mu        ngen      seed      min                 max                 unique')
+    # print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{minimum(pop): <20}{maximum(pop): <20}{len(unique(ind_unique))}')
 
-    print(ind_unique)
+    # pareto_front = ParetoFront()
+    # pareto_front.update(pop)
 
-    pareto_front = ParetoFront()
-    pareto_front.update(pop)
+    # #print("Final population hypervolume is %f" % hypervolume(pop, [11.0, 11.0]))
 
-    #print("Final population hypervolume is %f" % hypervolume(pop, [11.0, 11.0]))
+    # x, y = zip(*[ind.fitness.values for ind in pop])
+    # pfx, pfy = zip(*[ind.fitness.values for ind in pareto_front])
 
-    x, y = zip(*[ind.fitness.values for ind in pop])
-    pfx, pfy = zip(*[ind.fitness.values for ind in pareto_front])
+    # plt.title(timestamp)
+    # plt.plot(x, y, "bo")
+    # plt.plot(pfx, pfy, "r.")
+    # plt.axis("tight")
+    # plt.show()
 
-    plt.title(timestamp)
-    plt.plot(x, y, "bo")
-    plt.plot(pfx, pfy, "r.")
-    plt.axis("tight")
-    plt.show()
+    file = 'inst1.json'
+    with open(file) as f:
+        data = json.load(f)
+        sources = data['sources']
+        targets = data['targets']
+    last_order_time = max(targets, key=lambda t: t[0])[0]
+    targets = [(last_order_time-t[0],t[1],t[2]) for t in targets]
+    evaluation = Evaluation(sources, targets)
+
+    print(evaluation.evaluate(pop[0]))
+

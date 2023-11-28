@@ -16,8 +16,8 @@ from nsga2 import nsga2
 #SEEDS = [11, 53, 71, 127, 643]
 #NGEN = [250]
 
-CXPB = [0.7]
-INDPB = [0.01]
+CXPB = [0.8]
+INDPB = [0.001]
 MU = [100]
 SEEDS = [71]
 NGEN = [250]
