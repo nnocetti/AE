@@ -5,9 +5,6 @@ from time import time
 import os
 import sys
 
-from deap.tools import ParetoFront
-import matplotlib.pyplot as plt
-
 from nsga2 import nsga2
 
 #CXPB = [0.6, 0.7, 0.8]
@@ -75,19 +72,4 @@ if __name__ == "__main__":
             except:
                 print(f'Unable to dump stats to {runfile}')
 
-
-        pareto_front = ParetoFront()
-        pareto_front.update(pop)
-
-        #print("Final population hypervolume is %f" % hypervolume(pop, [11.0, 11.0]))
-
-        x, y = zip(*[ind.fitness.values for ind in pop])
-        pfx, pfy = zip(*[ind.fitness.values for ind in pareto_front])
-
-        plt.title(rundata['timestamp'])
-        plt.plot(x, y, "bo")
-        plt.plot(pfx, pfy, "r.")
-        plt.axis("tight")
-        plt.show(block=False)
-
-    input("Press [enter] to continue")
+        print(f'Stats in {runfile}')
