@@ -5,7 +5,7 @@ from deap import base
 from deap import creator
 from deap import tools
 
-from evaluation import Evaluation
+from evaluation2 import Evaluation
 
 
 def minimum(pop):
@@ -31,22 +31,58 @@ def initIndividual(icls, sources_count, targets_count):
         random.sample(range(targets_count), targets_count)
     ))
 
-def mate(ind1, ind2):
+def mate1(ind1, ind2):
     tools.cxTwoPoint(ind1[0], ind2[0])
     tools.cxPartialyMatched(ind1[1], ind2[1])
+
+def mate2(ind1, ind2):
+    origins1 = ind1[0]
+    origins2 = ind2[0]
+    targets1 = ind1[1]
+    targets2 = ind2[1]
+
+    size = min(len(targets1), len(targets2))
+    # Choose crossover points
+    cxpoint1 = random.randint(0, size)
+    cxpoint2 = random.randint(0, size - 1)
+    if cxpoint2 >= cxpoint1:
+        cxpoint2 += 1
+    else:  # Swap the two cx points
+        cxpoint1, cxpoint2 = cxpoint2, cxpoint1
+
+    # Initialize the position of each indices in the individuals
+    p1, p2 = [0] * size, [0] * size
+    for i in range(size):
+        p1[targets1[i]] = i
+        p2[targets2[i]] = i
+
+    # Apply crossover between cx points
+    for i in range(cxpoint1, cxpoint2):
+        # Keep track of the selected values
+        temp1 = targets1[i]
+        temp2 = targets2[i]
+        # Swap the matched value
+        targets1[i], targets1[p1[temp2]] = temp2, temp1
+        targets2[i], targets2[p2[temp1]] = temp1, temp2
+        # Position bookkeeping
+        p1[temp1], p1[temp2] = p1[temp2], p1[temp1]
+        p2[temp1], p2[temp2] = p2[temp2], p2[temp1]
+
+    origins1[cxpoint1:cxpoint2], origins2[cxpoint1:cxpoint2] \
+        = origins2[cxpoint1:cxpoint2], origins1[cxpoint1:cxpoint2]
 
 def mutate(ind, low, up, indpb):
     tools.mutUniformInt(ind[0], low, up, indpb)
     tools.mutShuffleIndexes(ind[1], indpb)
 
 
+creator.create("FitnessMin", base.Fitness, weights=(-1.0, -1.0))
+creator.create("Individual", tuple, fitness=creator.FitnessMin)
+
 def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
     random.seed(seed)
 
     eval = Evaluation(sources, targets)
-
-    creator.create("FitnessMin", base.Fitness, weights=(-1.0, -1.0))
-    creator.create("Individual", tuple, fitness=creator.FitnessMin)
 
     toolbox = base.Toolbox()
     pool = multiprocessing.Pool()
@@ -56,7 +92,7 @@ def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
     toolbox.register("evaluate", eval.evaluate)
-    toolbox.register("mate", mate)
+    toolbox.register("mate", mate2)
     toolbox.register("mutate", mutate, low=0, up=len(sources)-1, indpb=indpb)
     toolbox.register("select", tools.selNSGA2)
 

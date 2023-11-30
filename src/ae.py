@@ -7,20 +7,13 @@ import sys
 
 from nsga2 import nsga2
 
-#CXPB = [0.6, 0.7, 0.8]
-#INDPB = [0.1, 0.01, 0.001]
-#MU = [100, 200, 300]
-#SEEDS = [11, 53, 71, 127, 643]
-#NGEN = [250]
-
-CXPB = [0.8]
-INDPB = [0.001]
-MU = [100]
-SEEDS = [71]
-NGEN = [250]
+CXPB = [0.6, 0.7, 0.8]
+INDPB = [0.1, 0.01, 0.001]
+MU = [52, 128, 200]
+SEEDS = [7, 9, 17, 39, 40, 43, 110, 121, 133, 149, 150, 157, 179, 189, 202, 232, 315, 322, 323, 340, 348, 365, 381, 397, 402, 409, 439, 441, 459, 480]
+NGEN = [1500]
 
 if __name__ == "__main__":
-    start = time()
     
     if len(sys.argv) != 2:
         print(f'Need one an only one file to load')
@@ -51,12 +44,16 @@ if __name__ == "__main__":
 
     params = list(itertools.product(CXPB, INDPB, MU, NGEN, SEEDS))
     for cxpb, indpb, mu, ngen, seed in params:
+        timestamp = int(time())
+        print(f'timestamp: {timestamp}: cxpb {cxpb}, indpb {indpb}, mu {mu}, ngen {ngen}, seed {seed}')
+
         pop, logbook = nsga2(sources, targets, ngen=ngen, cxpb=cxpb, indpb=indpb, mu=mu, seed=seed)
 
+        runtime = time()-timestamp
         rundata = {
             'instance': os.path.basename(file),
-            'timestamp': int(start),
-            'runtime': time()-start,
+            'timestamp': timestamp,
+            'runtime': runtime,
             'cxpb': cxpb,
             'indpb': indpb,
             'mu': mu,
@@ -71,5 +68,7 @@ if __name__ == "__main__":
                 pickle.dump(rundata, f)
             except:
                 print(f'Unable to dump stats to {runfile}')
-
-        print(f'Stats in {runfile}')
+        
+        print(f'runtime {runtime}')
+        print(f'stats in {runfile}')
+        print()

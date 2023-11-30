@@ -7,7 +7,9 @@ from deap.benchmarks.tools import hypervolume
 from deap.tools import ParetoFront
 import matplotlib.pyplot as plt
 
-from evaluation import Evaluation
+from evaluation2 import Evaluation
+
+from nsga2 import mate2
 
 
 def minimum(pop):
@@ -92,7 +94,11 @@ else:
             targets = data['targets']
         last_order_time = max(targets, key=lambda t: t[0])[0]
         targets = [(last_order_time-t[0],t[1],t[2]) for t in targets]
-        evaluation = Evaluation(sources, targets)
 
+#        print(pop[0])
+#        print(pop[1])
+#        print(mate2(pop[0], pop[1]))
+
+        evaluation = Evaluation(sources, targets)
         print(evaluation.evaluate(pop[ind], show=True))
 
