@@ -5,20 +5,30 @@ from time import time
 import os
 import sys
 
-from nsga2 import nsga2
+import nsga2
 
+
+CXMETHOD = ['mate', 'mate_aligned']
 CXPB = [0.6, 0.7, 0.8]
 INDPB = [0.1, 0.01, 0.001]
-MU = [52, 128, 200]
-SEEDS = [7, 9, 17, 39, 40, 43, 110, 121, 133, 149, 150, 157, 179, 189, 202, 232, 315, 322, 323, 340, 348, 365, 381, 397, 402, 409, 439, 441, 459, 480]
-NGEN = [1500]
+MU = [200]
+NGEN = [2000]
+SEEDS = [37, 80, 84, 87, 101, 122, 125, 130, 139, 149, 167, 174, 186, 197, 289, 299, 303, 324, 347, 372, 403, 451, 453, 457, 491, 504, 544, 545, 556, 558, 594, 595, 632, 641, 685, 723, 777, 800, 805, 807, 821, 836, 872, 899, 946, 963, 967, 992, 993, 994]
+
+CXMETHOD = ['mate']
+CXPB = [0.6]
+INDPB = [0.1]
+MU = [200]
+NGEN = [250]
+SEEDS = [71]
 
 if __name__ == "__main__":
     
-    if len(sys.argv) != 2:
-        print(f'Need one an only one file to load')
+    if len(sys.argv) != 3:
+        print(f'Usage:  ae.py <INSTANCE> <DESTINATION_DIR>')
         exit(1)
     file = sys.argv[1]
+    dest = sys.argv[2]
     with open(file) as f:
         try:
             data = json.load(f)
@@ -42,27 +52,28 @@ if __name__ == "__main__":
     targets = [(last_order_time-t[0],t[1],t[2]) for t in targets]
 
 
-    params = list(itertools.product(CXPB, INDPB, MU, NGEN, SEEDS))
-    for cxpb, indpb, mu, ngen, seed in params:
+    params = list(itertools.product(CXMETHOD, CXPB, INDPB, MU, NGEN, SEEDS))
+    for cxmethod, cxpb, indpb, mu, ngen, seed in params:
         timestamp = int(time())
-        print(f'timestamp: {timestamp}: cxpb {cxpb}, indpb {indpb}, mu {mu}, ngen {ngen}, seed {seed}')
+        print(f'timestamp: {timestamp} -> cxmethod {cxmethod}, cxpb {cxpb}, indpb {indpb}, mu {mu}, ngen {ngen}, seed {seed}')
 
-        pop, logbook = nsga2(sources, targets, ngen=ngen, cxpb=cxpb, indpb=indpb, mu=mu, seed=seed)
+        pop, logbook = nsga2.nsga2(sources, targets, cxmethod=getattr(nsga2, cxmethod), cxpb=cxpb, indpb=indpb, mu=mu, ngen=ngen, seed=seed)
 
         runtime = time()-timestamp
         rundata = {
             'instance': os.path.basename(file),
             'timestamp': timestamp,
             'runtime': runtime,
+            'cxmethod': cxmethod,
             'cxpb': cxpb,
             'indpb': indpb,
             'mu': mu,
             'ngen': ngen,
             'seed': seed,
             'logbook': logbook,
-            'pop': pop
+            'pop': pop,
         }
-        runfile = f"../test/{rundata['timestamp']}.p"
+        runfile = f"{dest}/{timestamp}.p"
         with open(runfile, 'wb') as f:
             try:
                 pickle.dump(rundata, f)
@@ -71,4 +82,3 @@ if __name__ == "__main__":
         
         print(f'runtime {runtime}')
         print(f'stats in {runfile}')
-        print()

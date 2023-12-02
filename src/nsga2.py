@@ -5,7 +5,7 @@ from deap import base
 from deap import creator
 from deap import tools
 
-from evaluation2 import Evaluation
+from evaluation import Evaluation
 
 
 def minimum(pop):
@@ -14,11 +14,14 @@ def minimum(pop):
 def maximum(pop):
     return f"[{max(pop, key=lambda ind: ind.fitness.values[0]).fitness.values[0]:.2f}, {max(pop, key=lambda ind: ind.fitness.values[1]).fitness.values[1]:.2f}]"
 
+def equal(ind1, ind2):
+    return ind1[0]==ind2[0] and ind1[1]==ind2[1]
+
 def unique(pop):
     unique = []
     for idx, i in enumerate(pop):
         for j in pop[idx+1:]:
-            if i[0]==j[0] and i[1]==j[1]:
+            if equal(i, j):
                 break
         else:
             unique.append(i)
@@ -31,11 +34,11 @@ def initIndividual(icls, sources_count, targets_count):
         random.sample(range(targets_count), targets_count)
     ))
 
-def mate1(ind1, ind2):
+def mate(ind1, ind2):
     tools.cxTwoPoint(ind1[0], ind2[0])
     tools.cxPartialyMatched(ind1[1], ind2[1])
 
-def mate2(ind1, ind2):
+def mate_aligned(ind1, ind2):
     origins1 = ind1[0]
     origins2 = ind2[0]
     targets1 = ind1[1]
@@ -79,7 +82,7 @@ def mutate(ind, low, up, indpb):
 creator.create("FitnessMin", base.Fitness, weights=(-1.0, -1.0))
 creator.create("Individual", tuple, fitness=creator.FitnessMin)
 
-def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
+def nsga2(sources, targets, *, cxmethod, cxpb, indpb, mu, ngen, seed=None):
     random.seed(seed)
 
     eval = Evaluation(sources, targets)
@@ -92,7 +95,7 @@ def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
     toolbox.register("evaluate", eval.evaluate)
-    toolbox.register("mate", mate2)
+    toolbox.register("mate", cxmethod)
     toolbox.register("mutate", mutate, low=0, up=len(sources)-1, indpb=indpb)
     toolbox.register("select", tools.selNSGA2)
 
@@ -102,7 +105,7 @@ def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
     stats.register("unique", lambda pop: len(unique(pop)))
 
     logbook = tools.Logbook()
-    logbook.header = "gen", "evals", "unique", "min", "max"
+    logbook.header = "gen", "unique", "min", "max"
 
     pop = toolbox.population(n=mu)
 
@@ -117,8 +120,8 @@ def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
     pop = toolbox.select(pop, len(pop))
 
     record = stats.compile(pop)
-    logbook.record(gen=0, evals=len(invalid_ind), **record)
-    print(logbook.stream)
+    logbook.record(gen=0, **record)
+    print(logbook.stream, end='')
 
     # Begin the generational process
     for gen in range(1, ngen):
@@ -130,15 +133,9 @@ def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
             if random.random() <= cxpb:
                 toolbox.mate(ind1, ind2)
 
-                toolbox.mutate(ind1)
-                toolbox.mutate(ind2)
-                del ind1.fitness.values, ind2.fitness.values
-            else:
-                for ind in [ind1, ind2]:
-                    cp = toolbox.clone(ind)
-                    toolbox.mutate(ind)
-                    if ind != cp:
-                        del ind.fitness.values
+            toolbox.mutate(ind1)
+            toolbox.mutate(ind2)
+            del ind1.fitness.values, ind2.fitness.values
 
         # Evaluate the individuals with an invalid fitness
         invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
@@ -150,7 +147,8 @@ def nsga2(sources, targets, *, ngen, mu, cxpb, indpb, seed=None):
         pop = toolbox.select(pop + offspring, mu)
 
         record = stats.compile(pop)
-        logbook.record(gen=gen, evals=len(invalid_ind), **record)
-        print(logbook.stream)
-    
+        logbook.record(gen=gen, **record)
+        print('\r' + logbook.stream, end='')
+
+    print()
     return pop, logbook

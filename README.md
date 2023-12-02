@@ -24,3 +24,8 @@ Resumen (PowerShell)
     docker run --rm -t -v osrm-volume:/data osrm/osrm-backend osrm-customize /data/uruguay.osrm
     # Primer inicio (-a) <- opcional
     docker start osrm -a
+
+NOTA!
+
+El paquete python pfevaluator tiene como requerimiento el paquete pygmo, que requiere un binario. Para poder instalarlo con pip, sin compilar, es necesario instalar algunas herramientas de pip (solo funciona en linux!)
+    $ python3 -m pip install --upgrade pip setuptools wheel

@@ -7,9 +7,9 @@ from deap.benchmarks.tools import hypervolume
 from deap.tools import ParetoFront
 import matplotlib.pyplot as plt
 
-from evaluation2 import Evaluation
+from evaluation import Evaluation
 
-from nsga2 import mate2
+from nsga2 import mate
 
 
 def minimum(pop):
@@ -37,6 +37,7 @@ def load_file(file, *, dir=None):
             instance = data['instance']
             timestamp = data['timestamp']
             runtime = data['runtime']
+            cxmethod = data['cxmethod']
             cxpb = data['cxpb']
             indpb = data['indpb']
             mu = data['mu']
@@ -47,7 +48,7 @@ def load_file(file, *, dir=None):
         except:
             print(f'Unable to load file {file}')
             exit(1)
-    return (instance, timestamp, runtime, cxpb, indpb, mu, ngen, seed, logbook, pop)
+    return (instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop)
 
 
 if len(sys.argv) not in [2, 3]:
@@ -58,10 +59,10 @@ arg = sys.argv[1]
 
 if os.path.isdir(arg):
     for (dirpath, dirnames, filenames) in os.walk(arg):
-        print('file           instance       runtime        cxpb      indpb     mu        ngen      seed      min                 max                 unique')
+        print('file           instance       runtime        cxmethod  cxpb      indpb     mu        ngen      seed      min                 max                 unique')
         for file in filenames:
-            instance, timestamp, runtime, cxpb, indpb, mu, ngen, seed, logbook, pop = load_file(file, dir=arg)
-            print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{minimum(pop): <20}{maximum(pop): <20}{len(unique(pop))}')
+            instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop = load_file(file, dir=arg)
+            print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxmethod: <10}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{minimum(pop): <20}{maximum(pop): <20}{len(unique(pop))}')
 else:
     instance, timestamp, runtime, cxpb, indpb, mu, ngen, seed, logbook, pop = load_file(arg)
 
@@ -73,8 +74,6 @@ else:
 
         pareto_front = ParetoFront()
         pareto_front.update(pop)
-
-        print("Final population hypervolume is %f" % hypervolume(pop))
 
         x, y = zip(*[ind.fitness.values for ind in pop])
         pfx, pfy = zip(*[ind.fitness.values for ind in pareto_front])
@@ -97,7 +96,7 @@ else:
 
 #        print(pop[0])
 #        print(pop[1])
-#        print(mate2(pop[0], pop[1]))
+#        print(mate(pop[0], pop[1]))
 
         evaluation = Evaluation(sources, targets)
         print(evaluation.evaluate(pop[ind], show=True))
