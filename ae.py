@@ -1,12 +1,11 @@
 import itertools
-import json
 import pickle
 from time import time
 import os
 import sys
 
 import nsga2
-
+from analysis import load_inst_file
 
 CXMETHOD = ['mate', 'mate_aligned']
 CXPB = [0.6, 0.7, 0.8]
@@ -17,20 +16,13 @@ NGEN = [2000]
 SEEDS = [37, 80, 84, 87, 101, 122, 125, 130, 139, 149, 167, 174, 186, 197, 289, 299, 303, 324, 347, 372, 403, 451, 453, 457, 491, 504, 544, 545, 556, 558]
 
 if __name__ == "__main__":
-    
     if len(sys.argv) != 3:
         print(f'Usage:  ae.py <INSTANCE> <DESTINATION_DIR>')
         exit(1)
     file = sys.argv[1]
     dest = sys.argv[2]
-    with open(file) as f:
-        try:
-            data = json.load(f)
-            sources = data['sources']
-            targets = data['targets']
-        except:
-            print(f'Unable to load file {file}')
-            exit(1)
+
+    sources, targets = load_inst_file(file)
 
     # Preprocesamos los datos para acelerar las cuentas
     # Transformamos el tiempo de realizado el pedido en el tiempo de espera de ese pedido en relación al úlitmo ingresado

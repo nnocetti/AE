@@ -1,76 +1,30 @@
 import pickle
 import os
 import sys
-import json
 
-from deap.benchmarks.tools import hypervolume
 from deap.tools import ParetoFront
 import matplotlib.pyplot as plt
 
-from evaluation import Evaluation
+from analysis import load_run_file
 
-from nsga2 import mate
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print(f'Need only one argument')
+        exit(1)
 
+    arg = sys.argv[1]
 
-def minimum(pop):
-    return f"[{min(pop, key=lambda ind: ind.fitness.values[0]).fitness.values[0]:.2f}, {min(pop, key=lambda ind: ind.fitness.values[1]).fitness.values[1]:.2f}]"
+    print('file           instance       runtime        cxmethod  cxpb      indpb     mu        ngen      seed      min                 avg                 max                 unique')
+    if os.path.isdir(arg):
+        for (dirpath, dirnames, filenames) in os.walk(arg):
+            for file in filenames:
+                instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop = load_run_file(f'{arg}\{file}')
+                print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxmethod: <10}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{logbook.select("min")[-1]: <20}{logbook.select("avg")[-1]: <20}{logbook.select("max")[-1]: <20}{logbook.select("unique")[-1]: <20}')
+    else:
+        instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop = load_run_file(arg)
 
-def maximum(pop):
-    return f"[{max(pop, key=lambda ind: ind.fitness.values[0]).fitness.values[0]:.2f}, {max(pop, key=lambda ind: ind.fitness.values[1]).fitness.values[1]:.2f}]"
-
-def unique(pop):
-    unique = []
-    for idx, i in enumerate(pop):
-        for j in pop[idx+1:]:
-            if i[0]==j[0] and i[1]==j[1]:
-                break
-        else:
-            unique.append(i)
-    return unique
-
-def load_file(file, *, dir=None):
-    if dir:
-        file = f'{dir}/{file}'
-    with open(file, 'rb') as f:
-        try:
-            data = pickle.load(f)
-            instance = data['instance']
-            timestamp = data['timestamp']
-            runtime = data['runtime']
-            cxmethod = data['cxmethod']
-            cxpb = data['cxpb']
-            indpb = data['indpb']
-            mu = data['mu']
-            ngen = data['ngen']
-            seed = data['seed']
-            logbook = data['logbook']
-            pop = data['pop']
-        except:
-            print(f'Unable to load file {file}')
-            exit(1)
-    return (instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop)
-
-
-if len(sys.argv) not in [2, 3]:
-    print(f'Need one or two arguments')
-    exit(1)
-
-arg = sys.argv[1]
-
-if os.path.isdir(arg):
-    for (dirpath, dirnames, filenames) in os.walk(arg):
-        print('file           instance       runtime        cxmethod  cxpb      indpb     mu        ngen      seed      min                 max                 unique')
-        for file in filenames:
-            instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop = load_file(file, dir=arg)
-            print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxmethod: <10}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{minimum(pop): <20}{maximum(pop): <20}{len(unique(pop))}')
-else:
-    instance, timestamp, runtime, cxpb, indpb, mu, ngen, seed, logbook, pop = load_file(arg)
-
-    if len(sys.argv) == 2:
         file = os.path.basename(arg)
-        ind_unique = unique(pop)
-        print('file           instance       runtime        cxpb      indpb     mu        ngen      seed      min                 max                 unique')
-        print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{minimum(pop): <20}{maximum(pop): <20}{len(unique(ind_unique))}')
+        print(f'{file: <15}{instance: <15}{runtime: <15.2f}{cxmethod: <10}{cxpb: <10}{indpb: <10}{mu: <10}{ngen: <10}{seed: <10}{logbook.select("min")[-1]: <20}{logbook.select("avg")[-1]: <20}{logbook.select("max")[-1]: <20}{logbook.select("unique")[-1]: <20}')
 
         pareto_front = ParetoFront()
         pareto_front.update(pop)
@@ -81,23 +35,4 @@ else:
         plt.title(timestamp)
         plt.plot(x, y, "b.")
         plt.plot(pfx, pfy, "r.")
-        plt.axis("tight")
         plt.show()
-    else:
-        ind = int(sys.argv[2])
-
-        file = 'inst1.json'
-        with open(file) as f:
-            data = json.load(f)
-            sources = data['sources']
-            targets = data['targets']
-        last_order_time = max(targets, key=lambda t: t[0])[0]
-        targets = [(last_order_time-t[0],t[1],t[2]) for t in targets]
-
-#        print(pop[0])
-#        print(pop[1])
-#        print(mate(pop[0], pop[1]))
-
-        evaluation = Evaluation(sources, targets)
-        print(evaluation.evaluate(pop[ind], show=True))
-
