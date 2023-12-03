@@ -11,6 +11,9 @@ from evaluation import Evaluation
 def minimum(pop):
     return f"[{min(pop, key=lambda ind: ind.fitness.values[0]).fitness.values[0]:.2f}, {min(pop, key=lambda ind: ind.fitness.values[1]).fitness.values[1]:.2f}]"
 
+def average(pop):
+    return f"[{sum([ind.fitness.values[0] for ind in pop])/len(pop):.2f}, {sum([ind.fitness.values[1] for ind in pop])/len(pop):.2f}]"
+
 def maximum(pop):
     return f"[{max(pop, key=lambda ind: ind.fitness.values[0]).fitness.values[0]:.2f}, {max(pop, key=lambda ind: ind.fitness.values[1]).fitness.values[1]:.2f}]"
 
@@ -101,11 +104,12 @@ def nsga2(sources, targets, *, cxmethod, cxpb, indpb, mu, ngen, seed=None):
 
     stats = tools.Statistics()
     stats.register("min", minimum)
+    stats.register("avg", average)
     stats.register("max", maximum)
     stats.register("unique", lambda pop: len(unique(pop)))
 
     logbook = tools.Logbook()
-    logbook.header = "gen", "unique", "min", "max"
+    logbook.header = "gen", "unique", "min", "avg", "max"
 
     pop = toolbox.population(n=mu)
 
