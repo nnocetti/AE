@@ -91,9 +91,9 @@ if __name__ == "__main__":
         run_front.update(pop)
         data = {}
         data['timestamp'] = timestamp
-        data['igd'] = igd([ind.fitness.values for ind in run_front], ref_front_values)
-        data['convergence'] = convergence(run_front, ref_front_values)
-        data['diversity'] = diversity(run_front, ref_front_values[0], ref_front_values[-1])
+        #data['igd'] = igd([ind.fitness.values for ind in run_front], ref_front_values)
+        #data['convergence'] = convergence(run_front, ref_front_values)
+        #data['diversity'] = diversity(run_front, ref_front_values[0], ref_front_values[-1])
         data['rhv'] = hypervolume(run_front, nadir_point)/ref_hv
         metrics[param_id].append(data)
 

@@ -90,9 +90,9 @@ class Evaluation:
 
     def evaluate_alternative(self, ind):
         travel_max = 0
-        query = ['' for _ in range(len(self.sources))]
+        query = [''] * len(self.sources)
         query_order = [[] for _ in range(len(self.sources))]
-        deliver_time = [None for _ in range(len(self.targets))]
+        deliver_time = [None] * len(self.targets)
 
         # Construyo las urls para realizar las consultas
         # tengo que guardar el orden en que se recorren los destinos para cada origen, para poder calcular el tiempo de entrega a cada destino

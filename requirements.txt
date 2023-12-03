@@ -1,4 +1,4 @@
 deap==1.4.1
 requests==2.31.0
 matplotlib==3.8.2
-pfevaluator==1.1.0
+spyci==1.0.2
