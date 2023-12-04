@@ -115,7 +115,10 @@ if __name__ == "__main__":
     
     matpvalue = []
     matcolor = []
+    yticks = []
     for i, gt in enumerate(rhv.keys()):
+        indpb, cxpb, cxmethod, mu, ngen = gt.split(';')
+        yticks.append(f'{indpb};{cxpb};{cxmethod} - {i}')
         matpvalue.append([])
         matcolor.append([])
         for j, le in enumerate(rhv.keys()):
@@ -128,8 +131,14 @@ if __name__ == "__main__":
                 matpvalue[-1].append(mannwhitneyu.pvalue)
                 if i == j:
                     matcolor[-1].append((1.,1.,1.))
-                else:
-                    matcolor[-1].append((0.,1.,0.) if mannwhitneyu.pvalue < 0.05 else (1.,0.,0.))
+                elif mannwhitneyu.pvalue < 0.001:
+                    matcolor[-1].append((0.0,0.353,0.196))
+                elif mannwhitneyu.pvalue < 0.01:
+                    matcolor[-1].append((0.137,0.545,0.271))
+                elif mannwhitneyu.pvalue < 0.05:
+                    matcolor[-1].append((0.631,0.851,0.608))
+                else: 
+                    matcolor[-1].append((0.937,0.231,0.173))
 
     fig, ax = plt.subplots(figsize=(10,10))
 
@@ -139,6 +148,16 @@ if __name__ == "__main__":
         for j, cell in enumerate(row):
             ax.text(j, i, f'{cell:.2f}', va='center', ha='center')
 
+    plt.yticks(range(18), yticks)
+    # Minor ticks
+    ax.set_xticks([x-0.5 for x in range(1,18)], minor=True)
+    ax.set_yticks([x-0.5 for x in range(1,18)], minor=True)
+    # Gridlines based on minor ticks
+    ax.grid(which='minor', color='w', linestyle='-', linewidth=2)
+    # Remove minor ticks
+    ax.tick_params(which='minor', top=False, bottom=False, left=False)
+
+    plt.tight_layout()
     plt.show()
     
     runtime = time()-start

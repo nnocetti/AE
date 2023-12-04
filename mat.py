@@ -23,4 +23,25 @@ for i, row in enumerate(matpvalue):
     for j, cell in enumerate(row):
         ax.text(j, i, f'{cell:.2f}', va='center', ha='center')
 
+
+# Major ticks
+#ax.set_xticks(np.arange(0, 10, 1))
+#ax.set_yticks(np.arange(0, 10, 1))
+
+# Labels for major ticks
+#ax.set_xticklabels(np.arange(1, 11, 1))
+#ax.set_yticklabels(np.arange(1, 11, 1))
+
+plt.yticks([0,1,2,3], ['hola', 'como', 'te', 'va'])
+
+# Minor ticks
+ax.set_xticks([x-0.5 for x in range(1,18)], minor=True)
+ax.set_yticks([x-0.5 for x in range(1,18)], minor=True)
+# Gridlines based on minor ticks
+ax.grid(which='minor', color='w', linestyle='-', linewidth=2)
+# Remove minor ticks
+ax.tick_params(which='minor', top=False, bottom=False, left=False)
+
+plt.tight_layout(pad=0.5)
+
 plt.show()
