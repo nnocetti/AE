@@ -3,6 +3,7 @@ import json
 import pickle
 import sys
 from time import time
+import itertools
 from statistics import median, mean, stdev
 
 from scipy import stats
@@ -10,6 +11,20 @@ from scipy import stats
 from deap.tools import ParetoFront
 from deap.benchmarks.tools import igd, diversity, convergence, hypervolume
 
+import matplotlib.pyplot as plt
+
+
+CXMETHOD = ['mate', 'mate_aligned']
+CXPB = [0.6, 0.7, 0.8]
+INDPB = [0.1, 0.01, 0.001]
+MU = [152]
+NGEN = [2000]
+
+#CXMETHOD = ['mate']
+#CXPB = [0.7]
+#INDPB = [0.01]
+#MU = [100, 152, 200, 252]
+#NGEN = [1500, 2000, 2500, 3000]
 
 def load_inst_file(file):
     with open(file) as f:
@@ -65,7 +80,7 @@ if __name__ == "__main__":
     for file in filenames:
         (instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop) = load_run_file(f'{dirpath}\{file}')
         ref_front.update(pop)
-        param_id = ';'.join([str(value) for value in [cxmethod,cxpb,indpb]])
+        param_id = ';'.join([str(value) for value in [indpb,cxpb,cxmethod,mu,ngen]])
         raw_data[param_id] = raw_data[param_id] if param_id in raw_data else []
         run_front = ParetoFront()
         run_front.update(pop)
@@ -79,28 +94,52 @@ if __name__ == "__main__":
     nadir_point = (max(obj1_values), max(obj2_values))
     ref_hv = hypervolume(ref_front, nadir_point)
 
-
+    params = [';'.join([str(p) for p in cb]) for cb in itertools.product(INDPB, CXPB, CXMETHOD, MU, NGEN)]
     rhv = {}
-    print('cxmethod;cxpb;indpb;median;mean;stdev;kstest')
-    for param_id in raw_data.keys():
-        rhv[param_id] = []
-        print(param_id, end=';')
-        for data in raw_data[param_id]:
-            #invgd = igd([ind.fitness.values for ind in run_front], ref_front_values)
-            #conv = convergence(run_front, ref_front_values)
-            #div = diversity(run_front, ref_front_values[0], ref_front_values[-1])
-            rhv[param_id].append(hypervolume(data['runfront'], nadir_point)/ref_hv)
-        print(f"{median(rhv[param_id])};{mean(rhv[param_id])};{stdev(rhv[param_id])};{stats.kstest(rhv[param_id], 'norm').pvalue}")
+    print('cxmethod;cxpb;indpb;mu;ngen;median;mean;stdev;kstest')
+    for param_id in sorted(raw_data.keys()):
+        if param_id in params:
+            rhv[param_id] = []
+            print(param_id, end=';')
+            for data in raw_data[param_id]:
+                #invgd = igd([ind.fitness.values for ind in run_front], ref_front_values)
+                #conv = convergence(run_front, ref_front_values)
+                #div = diversity(run_front, ref_front_values[0], ref_front_values[-1])
+                hv = hypervolume(data['runfront'], nadir_point)/ref_hv
+                #print(f"{data['timestamp']}: {hv}")
+                rhv[param_id].append(hv/ref_hv)
+            print(f"{median(rhv[param_id])};{mean(rhv[param_id])};{stdev(rhv[param_id])};{stats.kstest(rhv[param_id], 'norm').pvalue}")
 
-    print(stats.kruskal(*[values for values in rhv.values()]))
+    print(stats.friedmanchisquare(*rhv.values()))
+    #print(stats.kruskal(*rhv.values()))
+    
+    matpvalue = []
+    matcolor = []
+    for i, gt in enumerate(rhv.keys()):
+        matpvalue.append([])
+        matcolor.append([])
+        for j, le in enumerate(rhv.keys()):
+                mannwhitneyu = stats.mannwhitneyu(rhv[gt], rhv[le], alternative='greater')
+                result = f'{gt} > {le}' if mannwhitneyu.pvalue < 0.05 else f'{gt} . {le}'
+                print(f'mannwhitneyu: {result: <45} ... pvalue: {mannwhitneyu.pvalue}')
+                #wilcoxon = stats.wilcoxon(rhv[gt], rhv[le], alternative='greater')
+                #result = f'{gt} > {le}' if wilcoxon.pvalue < 0.05 else f'{gt} . {le}'
+                #print(f'wilcoxon:     {result: <45} ... pvalue: {wilcoxon.pvalue}')
+                matpvalue[-1].append(mannwhitneyu.pvalue)
+                if i == j:
+                    matcolor[-1].append((1.,1.,1.))
+                else:
+                    matcolor[-1].append((0.,1.,0.) if mannwhitneyu.pvalue < 0.05 else (1.,0.,0.))
 
-    for gt in rhv.keys():
-        for le in rhv.keys():
-            mannwhitneyu = stats.mannwhitneyu(rhv[gt], rhv[le], alternative='greater')
-            result = f'{gt} > {le}' if mannwhitneyu.pvalue < 0.05 else f'{gt} . {le}'
-            print(f'{result: <65} ... pvalue: {mannwhitneyu.pvalue}')
+    fig, ax = plt.subplots(figsize=(10,10))
 
+    ax.matshow(matcolor)
 
+    for i, row in enumerate(matpvalue):
+        for j, cell in enumerate(row):
+            ax.text(j, i, f'{cell:.2f}', va='center', ha='center')
 
+    plt.show()
+    
     runtime = time()-start
     print(f'runtime {runtime}')

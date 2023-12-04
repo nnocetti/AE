@@ -1,0 +1,2702 @@
+(.venv) PS C:\Users\usuario\Desktop\ae> .\ae.py .\tuning\large\large.json .\tuning\large\runs\
+timestamp: 1701567492 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    152     [4132.90, 619.97]       [4650.06, 819.01]       [5600.90, 1357.49]
+runtime 346.35018157958984
+stats in .\tuning\large\runs\/1701567492.p
+timestamp: 1701567838 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    152     [4131.20, 606.70]       [4567.06, 822.96]       [6086.30, 1391.22]
+runtime 344.068922996521
+stats in .\tuning\large\runs\/1701567838.p
+timestamp: 1701568182 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    152     [4140.60, 621.46]       [4513.42, 824.89]       [5913.50, 1240.26]
+runtime 346.5063955783844
+stats in .\tuning\large\runs\/1701568182.p
+timestamp: 1701568528 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    152     [4100.00, 597.94]       [4593.74, 768.45]       [5644.90, 1296.32]
+runtime 346.85017490386963
+stats in .\tuning\large\runs\/1701568528.p
+timestamp: 1701568874 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    152     [4156.40, 624.01]       [4570.63, 836.60]       [5406.90, 1402.69]
+runtime 347.31890320777893
+stats in .\tuning\large\runs\/1701568874.p
+timestamp: 1701569221 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    152     [4127.10, 633.00]       [4610.06, 778.52]       [5763.30, 1211.84]
+runtime 350.41327953338623
+stats in .\tuning\large\runs\/1701569221.p
+timestamp: 1701569571 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    152     [4144.30, 615.24]       [4615.50, 818.70]       [5851.70, 1310.53]
+runtime 345.6157579421997
+stats in .\tuning\large\runs\/1701569571.p
+timestamp: 1701569916 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    152     [4194.70, 570.04]       [4609.53, 784.82]       [5831.20, 1514.83]
+runtime 350.31887650489807
+stats in .\tuning\large\runs\/1701569916.p
+timestamp: 1701570266 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    152     [4110.80, 605.33]       [4530.85, 812.69]       [5551.10, 1364.52]
+runtime 346.97516202926636
+stats in .\tuning\large\runs\/1701570266.p
+timestamp: 1701570612 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    152     [4008.10, 627.51]       [4591.72, 842.89]       [6359.20, 1252.77]
+runtime 347.77198600769043
+stats in .\tuning\large\runs\/1701570612.p
+timestamp: 1701570959 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    152     [4183.90, 643.25]       [4609.44, 791.11]       [5815.80, 1258.49]
+runtime 352.0532376766205
+stats in .\tuning\large\runs\/1701570959.p
+timestamp: 1701571311 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    152     [4134.60, 615.26]       [4533.53, 787.13]       [5804.30, 1523.75]
+runtime 345.7564136981964
+stats in .\tuning\large\runs\/1701571311.p
+timestamp: 1701571656 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    152     [4128.80, 608.59]       [4560.50, 813.96]       [5490.10, 1332.01]
+runtime 344.3188874721527
+stats in .\tuning\large\runs\/1701571656.p
+timestamp: 1701572000 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    152     [4094.30, 559.74]       [4603.87, 811.34]       [5576.60, 1360.39]
+runtime 344.7563569545746
+stats in .\tuning\large\runs\/1701572000.p
+timestamp: 1701572344 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    152     [4167.80, 619.58]       [4579.87, 766.19]       [5852.70, 1141.36]
+runtime 350.55179595947266
+stats in .\tuning\large\runs\/1701572344.p
+timestamp: 1701572694 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    152     [4130.30, 640.29]       [4602.66, 830.94]       [5945.50, 1436.19]
+runtime 344.8032937049866
+stats in .\tuning\large\runs\/1701572694.p
+timestamp: 1701573038 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    152     [4098.90, 661.36]       [4553.54, 815.94]       [5625.90, 1356.07]
+runtime 350.5239050388336
+stats in .\tuning\large\runs\/1701573038.p
+timestamp: 1701573388 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    152     [4133.00, 632.64]       [4609.18, 831.22]       [5712.90, 1388.86]
+runtime 345.44387769699097
+stats in .\tuning\large\runs\/1701573388.p
+timestamp: 1701573733 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    152     [4077.10, 651.40]       [4509.44, 837.46]       [5792.00, 1230.66]
+runtime 361.7407720088959
+stats in .\tuning\large\runs\/1701573733.p
+timestamp: 1701574094 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    152     [4156.50, 632.71]       [4646.25, 789.68]       [6096.90, 1200.10]
+runtime 345.8501133918762
+stats in .\tuning\large\runs\/1701574094.p
+timestamp: 1701574439 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    152     [4135.00, 619.15]       [4621.79, 818.11]       [6050.50, 1427.48]
+runtime 357.81638264656067
+stats in .\tuning\large\runs\/1701574439.p
+timestamp: 1701574796 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    152     [4116.60, 623.62]       [4559.71, 827.87]       [5841.60, 1310.64]
+runtime 360.6484730243683
+stats in .\tuning\large\runs\/1701574796.p
+timestamp: 1701575156 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    152     [4162.40, 614.50]       [4667.15, 814.10]       [5670.80, 1290.59]
+runtime 368.08451652526855
+stats in .\tuning\large\runs\/1701575156.p
+timestamp: 1701575524 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    152     [4081.40, 611.82]       [4558.04, 789.20]       [5696.80, 1159.61]
+runtime 357.74075293540955
+stats in .\tuning\large\runs\/1701575524.p
+timestamp: 1701575881 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    152     [4047.60, 627.99]       [4570.11, 801.99]       [5574.30, 1280.36]
+runtime 356.11578130722046
+stats in .\tuning\large\runs\/1701575881.p
+timestamp: 1701576237 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    152     [4100.80, 641.71]       [4530.31, 875.31]       [5639.50, 1394.28]
+runtime 352.91422033309937
+stats in .\tuning\large\runs\/1701576237.p
+timestamp: 1701576589 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    152     [4118.60, 615.30]       [4592.58, 819.20]       [6021.40, 1403.57]
+runtime 359.95947003364563
+stats in .\tuning\large\runs\/1701576589.p
+timestamp: 1701576948 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    152     [4084.70, 656.21]       [4553.20, 816.12]       [5593.90, 1232.38]
+runtime 368.1470284461975
+stats in .\tuning\large\runs\/1701576948.p
+timestamp: 1701577316 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    152     [4127.30, 612.70]       [4487.72, 883.04]       [5697.60, 1382.94]
+runtime 365.59149384498596
+stats in .\tuning\large\runs\/1701577316.p
+timestamp: 1701577681 -> cxmethod mate, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    152     [4064.50, 645.10]       [4501.01, 833.65]       [5484.10, 1495.63]
+runtime 372.5063648223877
+stats in .\tuning\large\runs\/1701577681.p
+timestamp: 1701578053 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    40      [3381.80, 162.40]       [3651.82, 267.65]       [3934.20, 397.59]
+runtime 202.58507442474365
+stats in .\tuning\large\runs\/1701578053.p
+timestamp: 1701578255 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    44      [3404.50, 139.14]       [3639.67, 219.30]       [3991.30, 341.16]
+runtime 204.16563248634338
+stats in .\tuning\large\runs\/1701578255.p
+timestamp: 1701578459 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    30      [3424.40, 150.73]       [3517.60, 274.54]       [3815.00, 327.64]
+runtime 203.20953845977783
+stats in .\tuning\large\runs\/1701578459.p
+timestamp: 1701578662 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    34      [3304.10, 175.27]       [3818.03, 256.79]       [4000.80, 608.54]
+runtime 205.9439296722412
+stats in .\tuning\large\runs\/1701578662.p
+timestamp: 1701578867 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    45      [3362.50, 139.27]       [3699.11, 280.26]       [4081.30, 527.39]
+runtime 206.756361246109
+stats in .\tuning\large\runs\/1701578867.p
+timestamp: 1701579073 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    38      [3326.60, 157.73]       [3609.32, 348.93]       [4300.70, 526.76]
+runtime 206.77200651168823
+stats in .\tuning\large\runs\/1701579073.p
+timestamp: 1701579279 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    56      [3268.80, 162.95]       [3579.13, 284.40]       [4039.50, 540.03]
+runtime 206.69293975830078
+stats in .\tuning\large\runs\/1701579279.p
+timestamp: 1701579485 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    28      [3373.20, 150.89]       [3660.53, 216.12]       [4059.50, 363.68]
+runtime 203.72216773033142
+stats in .\tuning\large\runs\/1701579485.p
+timestamp: 1701579688 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    43      [3267.60, 146.15]       [3752.36, 262.65]       [4223.50, 509.58]
+runtime 210.0516951084137
+stats in .\tuning\large\runs\/1701579688.p
+timestamp: 1701579898 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    37      [3280.50, 149.35]       [3542.60, 291.27]       [3849.40, 487.97]
+runtime 209.115793466568
+stats in .\tuning\large\runs\/1701579898.p
+timestamp: 1701580107 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    41      [3330.90, 149.39]       [3551.56, 276.92]       [3980.70, 514.58]
+runtime 207.59457397460938
+stats in .\tuning\large\runs\/1701580107.p
+timestamp: 1701580314 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    34      [3244.60, 149.22]       [3683.45, 300.11]       [4348.20, 540.70]
+runtime 206.66283321380615
+stats in .\tuning\large\runs\/1701580314.p
+timestamp: 1701580520 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    42      [3315.50, 167.85]       [3692.72, 240.36]       [3874.50, 503.14]
+runtime 206.78767776489258
+stats in .\tuning\large\runs\/1701580520.p
+timestamp: 1701580726 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    40      [3424.90, 164.68]       [3779.50, 260.13]       [4154.40, 512.48]
+runtime 200.38143825531006
+stats in .\tuning\large\runs\/1701580726.p
+timestamp: 1701580926 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    41      [3353.00, 150.42]       [3772.24, 204.27]       [3945.20, 386.67]
+runtime 197.03767037391663
+stats in .\tuning\large\runs\/1701580926.p
+timestamp: 1701581123 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    42      [3363.60, 160.99]       [3572.47, 314.23]       [3918.40, 489.21]
+runtime 202.50641560554504
+stats in .\tuning\large\runs\/1701581123.p
+timestamp: 1701581325 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    46      [3346.40, 165.92]       [3674.30, 215.98]       [3879.60, 431.99]
+runtime 202.67826080322266
+stats in .\tuning\large\runs\/1701581325.p
+timestamp: 1701581527 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    27      [3286.90, 190.47]       [3401.27, 504.65]       [4232.20, 604.75]
+runtime 203.2095296382904
+stats in .\tuning\large\runs\/1701581527.p
+timestamp: 1701581730 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    32      [3352.30, 132.53]       [3907.03, 182.89]       [4064.50, 465.24]
+runtime 209.49082469940186
+stats in .\tuning\large\runs\/1701581730.p
+timestamp: 1701581939 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    34      [3325.30, 157.42]       [3813.11, 226.19]       [3951.90, 538.21]
+runtime 208.47852110862732
+stats in .\tuning\large\runs\/1701581939.p
+timestamp: 1701582147 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    39      [3321.50, 159.31]       [3672.12, 270.22]       [4085.90, 540.29]
+runtime 203.14943504333496
+stats in .\tuning\large\runs\/1701582147.p
+timestamp: 1701582350 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    53      [3426.90, 165.25]       [3689.85, 265.61]       [4065.40, 415.94]
+runtime 202.29758167266846
+stats in .\tuning\large\runs\/1701582350.p
+timestamp: 1701582552 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    38      [3386.70, 154.65]       [3668.31, 301.44]       [4096.50, 488.25]
+runtime 201.13929319381714
+stats in .\tuning\large\runs\/1701582552.p
+timestamp: 1701582753 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    41      [3244.80, 146.75]       [3483.86, 355.90]       [3987.30, 552.43]
+runtime 203.61358070373535
+stats in .\tuning\large\runs\/1701582753.p
+timestamp: 1701582956 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    51      [3308.70, 148.19]       [3661.76, 335.57]       [4111.10, 661.17]
+runtime 206.71159386634827
+stats in .\tuning\large\runs\/1701582956.p
+timestamp: 1701583162 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    42      [3350.60, 154.77]       [3564.51, 306.39]       [3983.10, 542.19]
+runtime 205.29804491996765
+stats in .\tuning\large\runs\/1701583162.p
+timestamp: 1701583367 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    39      [3354.30, 141.94]       [3636.67, 245.55]       [3979.00, 422.84]
+runtime 203.66315150260925
+stats in .\tuning\large\runs\/1701583367.p
+timestamp: 1701583570 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    39      [3401.30, 161.36]       [3649.02, 306.55]       [3953.80, 489.92]
+runtime 217.07418012619019
+stats in .\tuning\large\runs\/1701583570.p
+timestamp: 1701583787 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    55      [3342.90, 155.78]       [3624.94, 353.03]       [4206.30, 685.49]
+runtime 208.84557795524597
+stats in .\tuning\large\runs\/1701583787.p
+timestamp: 1701583995 -> cxmethod mate, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    50      [3334.30, 156.94]       [3699.36, 262.11]       [4163.80, 483.01]
+runtime 207.91378092765808
+stats in .\tuning\large\runs\/1701583995.p
+timestamp: 1701584202 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    36      [3449.90, 157.90]       [3862.85, 183.83]       [4062.10, 305.50]
+runtime 167.71503472328186
+stats in .\tuning\large\runs\/1701584202.p
+timestamp: 1701584369 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    50      [3394.80, 144.78]       [3858.36, 202.18]       [4124.80, 512.04]
+runtime 167.90592980384827
+stats in .\tuning\large\runs\/1701584369.p
+timestamp: 1701584536 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    46      [3388.70, 171.41]       [3736.44, 197.95]       [3933.10, 299.74]
+runtime 164.0651659965515
+stats in .\tuning\large\runs\/1701584536.p
+timestamp: 1701584700 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    45      [3336.20, 150.78]       [3729.20, 191.23]       [3881.30, 411.95]
+runtime 168.04054927825928
+stats in .\tuning\large\runs\/1701584700.p
+timestamp: 1701584868 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    46      [3528.50, 145.63]       [3616.98, 248.43]       [3956.20, 312.90]
+runtime 155.64967465400696
+stats in .\tuning\large\runs\/1701584868.p
+timestamp: 1701585023 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    42      [3391.90, 145.68]       [3727.38, 190.80]       [3872.10, 419.92]
+runtime 156.04349970817566
+stats in .\tuning\large\runs\/1701585023.p
+timestamp: 1701585179 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    50      [3409.90, 125.89]       [3824.99, 163.98]       [4077.80, 344.11]
+runtime 150.29625749588013
+stats in .\tuning\large\runs\/1701585179.p
+timestamp: 1701585329 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    47      [3381.30, 141.63]       [3551.51, 360.83]       [4010.30, 510.90]
+runtime 154.48618531227112
+stats in .\tuning\large\runs\/1701585329.p
+timestamp: 1701585483 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    40      [3374.80, 137.27]       [3607.79, 223.64]       [3864.00, 368.18]
+runtime 154.55105876922607
+stats in .\tuning\large\runs\/1701585483.p
+timestamp: 1701585637 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    53      [3353.20, 149.60]       [3484.55, 221.37]       [3837.10, 287.44]
+runtime 150.93928360939026
+stats in .\tuning\large\runs\/1701585637.p
+timestamp: 1701585787 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    44      [3398.00, 133.54]       [3561.94, 282.08]       [3920.20, 385.65]
+runtime 157.5409290790558
+stats in .\tuning\large\runs\/1701585787.p
+timestamp: 1701585944 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    44      [3511.80, 128.55]       [3799.82, 159.50]       [3961.00, 275.79]
+runtime 148.99502682685852
+stats in .\tuning\large\runs\/1701585944.p
+timestamp: 1701586093 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    34      [3284.70, 154.00]       [3662.81, 297.80]       [4187.80, 496.58]
+runtime 160.20011806488037
+stats in .\tuning\large\runs\/1701586093.p
+timestamp: 1701586253 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    34      [3377.30, 163.62]       [3577.57, 223.25]       [3839.90, 297.34]
+runtime 154.9542155265808
+stats in .\tuning\large\runs\/1701586253.p
+timestamp: 1701586407 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    42      [3419.40, 123.27]       [3661.57, 154.19]       [3772.40, 250.44]
+runtime 148.2868800163269
+stats in .\tuning\large\runs\/1701586407.p
+timestamp: 1701586555 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    28      [3478.40, 156.02]       [3763.35, 188.20]       [3840.90, 380.70]
+runtime 146.17510104179382
+stats in .\tuning\large\runs\/1701586555.p
+timestamp: 1701586701 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    46      [3443.30, 130.02]       [3673.26, 162.07]       [3773.40, 253.41]
+runtime 161.61594247817993
+stats in .\tuning\large\runs\/1701586701.p
+timestamp: 1701586862 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    38      [3431.90, 149.18]       [3727.79, 196.88]       [3832.90, 434.73]
+runtime 149.56761860847473
+stats in .\tuning\large\runs\/1701586862.p
+timestamp: 1701587011 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    36      [3394.30, 119.15]       [3752.17, 162.23]       [3869.30, 387.80]
+runtime 163.4996223449707
+stats in .\tuning\large\runs\/1701587011.p
+timestamp: 1701587174 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    37      [3408.70, 154.34]       [3545.32, 439.38]       [4019.40, 585.51]
+runtime 158.36056399345398
+stats in .\tuning\large\runs\/1701587174.p
+timestamp: 1701587332 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    41      [3304.50, 161.45]       [3452.77, 428.21]       [4088.70, 542.24]
+runtime 158.02683424949646
+stats in .\tuning\large\runs\/1701587332.p
+timestamp: 1701587490 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    43      [3317.20, 135.29]       [3748.40, 175.30]       [3961.40, 310.51]
+runtime 151.0532968044281
+stats in .\tuning\large\runs\/1701587490.p
+timestamp: 1701587641 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    41      [3336.10, 141.03]       [3503.90, 239.35]       [3832.10, 366.65]
+runtime 151.6713092327118
+stats in .\tuning\large\runs\/1701587641.p
+timestamp: 1701587792 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    49      [3387.60, 138.79]       [3658.36, 200.82]       [3999.40, 268.80]
+runtime 153.4564905166626
+stats in .\tuning\large\runs\/1701587792.p
+timestamp: 1701587945 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    42      [3399.50, 152.83]       [3674.46, 261.44]       [4163.70, 390.40]
+runtime 167.71852827072144
+stats in .\tuning\large\runs\/1701587945.p
+timestamp: 1701588112 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    29      [3417.00, 133.77]       [3594.53, 208.43]       [3870.40, 304.70]
+runtime 162.93732976913452
+stats in .\tuning\large\runs\/1701588112.p
+timestamp: 1701588274 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    30      [3560.70, 138.66]       [3762.31, 193.26]       [3945.00, 317.71]
+runtime 157.53498649597168
+stats in .\tuning\large\runs\/1701588274.p
+timestamp: 1701588431 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    38      [3404.70, 142.49]       [3715.65, 188.97]       [3838.00, 396.29]
+runtime 156.3932580947876
+stats in .\tuning\large\runs\/1701588431.p
+timestamp: 1701588587 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    50      [3396.50, 182.97]       [3515.15, 261.20]       [3844.00, 317.78]
+runtime 157.35188484191895
+stats in .\tuning\large\runs\/1701588587.p
+timestamp: 1701588744 -> cxmethod mate, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    44      [3494.50, 126.53]       [3822.17, 156.94]       [4008.70, 310.24]
+runtime 160.56610441207886
+stats in .\tuning\large\runs\/1701588744.p
+timestamp: 1701588904 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    152     [4106.50, 591.08]       [4616.36, 772.85]       [6104.20, 1296.98]
+runtime 383.50559759140015
+stats in .\tuning\large\runs\/1701588904.p
+timestamp: 1701589287 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    152     [4122.00, 600.80]       [4646.02, 777.81]       [5861.80, 1318.10]
+runtime 380.6319479942322
+stats in .\tuning\large\runs\/1701589287.p
+timestamp: 1701589667 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    152     [4166.40, 646.79]       [4572.68, 836.26]       [6081.60, 1248.55]
+runtime 361.05518317222595
+stats in .\tuning\large\runs\/1701589667.p
+timestamp: 1701590028 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    152     [4154.80, 596.91]       [4564.38, 783.47]       [5641.20, 1292.56]
+runtime 357.478440284729
+stats in .\tuning\large\runs\/1701590028.p
+timestamp: 1701590385 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    152     [4125.40, 617.67]       [4629.53, 776.98]       [5831.00, 1233.47]
+runtime 359.5419318675995
+stats in .\tuning\large\runs\/1701590385.p
+timestamp: 1701590744 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    152     [4188.90, 577.35]       [4484.75, 771.33]       [5398.60, 1435.87]
+runtime 359.15220880508423
+stats in .\tuning\large\runs\/1701590744.p
+timestamp: 1701591103 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    152     [4129.60, 619.68]       [4536.32, 845.28]       [5630.40, 1221.76]
+runtime 357.04378724098206
+stats in .\tuning\large\runs\/1701591103.p
+timestamp: 1701591460 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    152     [4155.90, 629.27]       [4554.86, 835.72]       [5376.90, 1317.25]
+runtime 354.60699820518494
+stats in .\tuning\large\runs\/1701591460.p
+timestamp: 1701591814 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    152     [4191.90, 605.23]       [4610.20, 825.95]       [6070.70, 1389.64]
+runtime 355.7014408111572
+stats in .\tuning\large\runs\/1701591814.p
+timestamp: 1701592169 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    152     [4141.00, 619.16]       [4591.19, 838.23]       [5588.10, 1258.40]
+runtime 364.8743257522583
+stats in .\tuning\large\runs\/1701592169.p
+timestamp: 1701592533 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    152     [4225.80, 664.19]       [4581.23, 881.04]       [5898.10, 1288.87]
+runtime 362.93699288368225
+stats in .\tuning\large\runs\/1701592533.p
+timestamp: 1701592895 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    152     [4031.40, 594.79]       [4574.58, 789.72]       [5520.00, 1262.63]
+runtime 361.218692779541
+stats in .\tuning\large\runs\/1701592895.p
+timestamp: 1701593256 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    152     [4150.90, 631.47]       [4534.60, 839.66]       [5519.00, 1246.42]
+runtime 364.2347595691681
+stats in .\tuning\large\runs\/1701593256.p
+timestamp: 1701593620 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    152     [4177.30, 650.45]       [4606.70, 831.27]       [5761.80, 1333.42]
+runtime 364.81323504447937
+stats in .\tuning\large\runs\/1701593620.p
+timestamp: 1701593984 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    152     [4176.80, 654.41]       [4587.23, 866.53]       [5806.10, 1388.51]
+runtime 360.8604784011841
+stats in .\tuning\large\runs\/1701593984.p
+timestamp: 1701594344 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    152     [4177.60, 628.24]       [4587.20, 765.36]       [5407.50, 1278.54]
+runtime 368.36083459854126
+stats in .\tuning\large\runs\/1701594344.p
+timestamp: 1701594712 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    152     [4194.00, 619.91]       [4631.76, 795.70]       [5702.10, 1304.86]
+runtime 362.9079873561859
+stats in .\tuning\large\runs\/1701594712.p
+timestamp: 1701595074 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    152     [4210.70, 632.80]       [4593.15, 813.51]       [6328.50, 1248.42]
+runtime 363.9550750255585
+stats in .\tuning\large\runs\/1701595074.p
+timestamp: 1701595437 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    152     [4156.00, 616.98]       [4636.18, 805.85]       [5706.70, 1331.54]
+runtime 359.4865653514862
+stats in .\tuning\large\runs\/1701595437.p
+timestamp: 1701595796 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    152     [4178.40, 660.23]       [4596.75, 824.86]       [5554.70, 1207.10]
+runtime 363.61183047294617
+stats in .\tuning\large\runs\/1701595796.p
+timestamp: 1701596159 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    152     [4184.00, 603.08]       [4552.91, 811.90]       [5383.20, 1375.19]
+runtime 360.3777184486389
+stats in .\tuning\large\runs\/1701596159.p
+timestamp: 1701596519 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    152     [4142.10, 619.58]       [4547.65, 797.17]       [5303.50, 1402.04]
+runtime 361.8151698112488
+stats in .\tuning\large\runs\/1701596519.p
+timestamp: 1701596880 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    152     [4156.20, 655.10]       [4579.55, 833.71]       [5929.10, 1283.52]
+runtime 361.3152709007263
+stats in .\tuning\large\runs\/1701596880.p
+timestamp: 1701597241 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    152     [4143.30, 618.25]       [4586.98, 828.47]       [5731.90, 1179.50]
+runtime 362.04974818229675
+stats in .\tuning\large\runs\/1701597241.p
+timestamp: 1701597603 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    152     [4134.00, 652.66]       [4563.21, 844.97]       [5463.50, 1397.45]
+runtime 358.44047594070435
+stats in .\tuning\large\runs\/1701597603.p
+timestamp: 1701597961 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    152     [4064.50, 632.87]       [4561.05, 826.82]       [5626.60, 1323.44]
+runtime 358.42508912086487
+stats in .\tuning\large\runs\/1701597961.p
+timestamp: 1701598319 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    152     [4157.30, 647.26]       [4596.68, 817.82]       [5799.60, 1321.27]
+runtime 360.0500490665436
+stats in .\tuning\large\runs\/1701598319.p
+timestamp: 1701598679 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    152     [4175.00, 641.24]       [4622.34, 850.92]       [5831.40, 1570.58]
+runtime 359.08137607574463
+stats in .\tuning\large\runs\/1701598679.p
+timestamp: 1701599038 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    152     [4177.20, 638.19]       [4550.33, 844.04]       [5834.10, 1228.80]
+runtime 361.5658550262451
+stats in .\tuning\large\runs\/1701599038.p
+timestamp: 1701599399 -> cxmethod mate, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    152     [4072.80, 664.69]       [4608.59, 812.45]       [5558.40, 1288.14]
+runtime 362.2221884727478
+stats in .\tuning\large\runs\/1701599399.p
+timestamp: 1701599761 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    32      [3441.30, 133.78]       [3732.46, 207.44]       [4127.90, 382.97]
+runtime 204.6440064907074
+stats in .\tuning\large\runs\/1701599761.p
+timestamp: 1701599965 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    31      [3340.40, 162.84]       [3595.91, 289.56]       [3890.90, 505.81]
+runtime 213.45654821395874
+stats in .\tuning\large\runs\/1701599965.p
+timestamp: 1701600178 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    34      [3329.90, 159.97]       [3662.38, 322.12]       [4014.60, 564.29]
+runtime 208.50350165367126
+stats in .\tuning\large\runs\/1701600178.p
+timestamp: 1701600386 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    35      [3484.10, 124.21]       [3685.95, 269.75]       [4027.10, 513.26]
+runtime 210.53475737571716
+stats in .\tuning\large\runs\/1701600386.p
+timestamp: 1701600596 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    47      [3350.30, 164.00]       [3694.85, 267.85]       [4203.50, 437.82]
+runtime 213.84724521636963
+stats in .\tuning\large\runs\/1701600596.p
+timestamp: 1701600809 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    44      [3354.00, 144.64]       [3723.60, 228.08]       [3950.50, 378.76]
+runtime 209.98792386054993
+stats in .\tuning\large\runs\/1701600809.p
+timestamp: 1701601019 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    48      [3319.30, 137.38]       [3577.85, 280.95]       [3930.10, 507.75]
+runtime 210.08172130584717
+stats in .\tuning\large\runs\/1701601019.p
+timestamp: 1701601229 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    53      [3359.40, 154.84]       [3693.15, 297.71]       [4168.30, 602.35]
+runtime 211.39416909217834
+stats in .\tuning\large\runs\/1701601229.p
+timestamp: 1701601440 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    38      [3318.80, 151.18]       [3574.69, 263.35]       [3983.50, 404.88]
+runtime 212.12859416007996
+stats in .\tuning\large\runs\/1701601440.p
+timestamp: 1701601652 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    33      [3380.30, 144.54]       [3605.56, 244.48]       [3989.00, 359.23]
+runtime 209.51920318603516
+stats in .\tuning\large\runs\/1701601652.p
+timestamp: 1701601861 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    37      [3371.10, 154.02]       [3704.77, 257.35]       [4078.10, 449.94]
+runtime 210.7849097251892
+stats in .\tuning\large\runs\/1701601861.p
+timestamp: 1701602071 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    56      [3362.10, 138.98]       [3622.19, 283.41]       [4116.40, 524.27]
+runtime 209.37869787216187
+stats in .\tuning\large\runs\/1701602071.p
+timestamp: 1701602280 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    29      [3363.40, 160.85]       [3651.38, 252.51]       [3838.20, 448.27]
+runtime 210.67557859420776
+stats in .\tuning\large\runs\/1701602280.p
+timestamp: 1701602490 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    39      [3278.40, 195.01]       [3555.48, 304.69]       [3980.70, 496.48]
+runtime 209.06623697280884
+stats in .\tuning\large\runs\/1701602490.p
+timestamp: 1701602699 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    36      [3438.60, 141.03]       [3759.19, 232.50]       [4261.20, 340.21]
+runtime 209.08181881904602
+stats in .\tuning\large\runs\/1701602699.p
+timestamp: 1701602908 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    49      [3470.10, 138.20]       [3763.12, 238.40]       [4107.80, 427.98]
+runtime 219.06622529029846
+stats in .\tuning\large\runs\/1701602908.p
+timestamp: 1701603127 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    34      [3308.50, 164.68]       [3756.38, 229.52]       [4000.90, 448.66]
+runtime 216.57465410232544
+stats in .\tuning\large\runs\/1701603127.p
+timestamp: 1701603343 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    35      [3359.30, 173.11]       [3598.20, 269.99]       [3891.00, 443.73]
+runtime 216.1131739616394
+stats in .\tuning\large\runs\/1701603343.p
+timestamp: 1701603559 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    29      [3325.20, 164.85]       [3552.32, 292.12]       [3993.30, 450.14]
+runtime 204.4725477695465
+stats in .\tuning\large\runs\/1701603559.p
+timestamp: 1701603763 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    35      [3382.90, 165.25]       [3704.23, 311.01]       [4369.70, 510.72]
+runtime 203.34755778312683
+stats in .\tuning\large\runs\/1701603763.p
+timestamp: 1701603966 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    34      [3400.40, 156.08]       [3703.77, 256.62]       [4080.10, 381.62]
+runtime 202.64449977874756
+stats in .\tuning\large\runs\/1701603966.p
+timestamp: 1701604168 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    25      [3389.60, 138.41]       [3631.96, 211.93]       [4020.50, 351.63]
+runtime 201.4725842475891
+stats in .\tuning\large\runs\/1701604168.p
+timestamp: 1701604369 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    44      [3432.90, 177.42]       [3747.09, 276.59]       [4169.30, 424.91]
+runtime 201.17577862739563
+stats in .\tuning\large\runs\/1701604369.p
+timestamp: 1701604570 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    49      [3313.00, 152.10]       [3620.30, 257.69]       [4148.90, 417.87]
+runtime 202.89457941055298
+stats in .\tuning\large\runs\/1701604570.p
+timestamp: 1701604772 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    43      [3287.40, 151.08]       [3712.46, 262.09]       [4098.90, 511.31]
+runtime 202.0976598262787
+stats in .\tuning\large\runs\/1701604772.p
+timestamp: 1701604974 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    45      [3343.10, 153.11]       [3593.34, 274.29]       [4093.60, 419.66]
+runtime 199.70700645446777
+stats in .\tuning\large\runs\/1701604974.p
+timestamp: 1701605173 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    36      [3318.10, 144.47]       [3544.40, 303.32]       [3987.20, 521.32]
+runtime 202.41012740135193
+stats in .\tuning\large\runs\/1701605173.p
+timestamp: 1701605375 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    35      [3296.50, 148.91]       [3546.94, 398.17]       [4133.30, 561.95]
+runtime 199.0508496761322
+stats in .\tuning\large\runs\/1701605375.p
+timestamp: 1701605574 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    36      [3435.50, 146.32]       [3730.86, 238.14]       [4155.60, 431.42]
+runtime 204.6132538318634
+stats in .\tuning\large\runs\/1701605574.p
+timestamp: 1701605778 -> cxmethod mate, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    35      [3269.20, 133.00]       [3599.82, 246.93]       [3820.20, 506.22]
+runtime 203.86326098442078
+stats in .\tuning\large\runs\/1701605778.p
+timestamp: 1701605981 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    51      [3387.30, 134.06]       [3759.79, 192.85]       [3991.30, 389.11]
+runtime 159.51951813697815
+stats in .\tuning\large\runs\/1701605981.p
+timestamp: 1701606140 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    34      [3391.60, 153.56]       [3486.13, 335.53]       [3817.10, 405.83]
+runtime 158.84775185585022
+stats in .\tuning\large\runs\/1701606140.p
+timestamp: 1701606298 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    49      [3385.50, 131.52]       [3765.15, 176.29]       [3949.50, 320.58]
+runtime 159.6757733821869
+stats in .\tuning\large\runs\/1701606298.p
+timestamp: 1701606457 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    42      [3308.80, 141.44]       [3451.65, 272.99]       [3858.40, 366.88]
+runtime 157.4570381641388
+stats in .\tuning\large\runs\/1701606457.p
+timestamp: 1701606614 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    44      [3441.10, 127.86]       [3619.44, 200.53]       [3891.50, 324.83]
+runtime 157.47267198562622
+stats in .\tuning\large\runs\/1701606614.p
+timestamp: 1701606771 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    53      [3476.90, 131.55]       [3614.32, 216.53]       [3925.90, 290.45]
+runtime 153.35870933532715
+stats in .\tuning\large\runs\/1701606771.p
+timestamp: 1701606924 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    60      [3375.90, 122.81]       [3559.80, 230.03]       [3853.70, 331.92]
+runtime 158.45702457427979
+stats in .\tuning\large\runs\/1701606924.p
+timestamp: 1701607082 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    58      [3470.90, 149.19]       [3752.14, 207.64]       [3924.40, 394.99]
+runtime 158.42575430870056
+stats in .\tuning\large\runs\/1701607082.p
+timestamp: 1701607240 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    39      [3527.30, 131.62]       [3851.68, 200.17]       [4248.60, 424.45]
+runtime 158.8111970424652
+stats in .\tuning\large\runs\/1701607240.p
+timestamp: 1701607398 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    48      [3343.80, 136.63]       [3665.17, 191.77]       [3866.10, 379.05]
+runtime 161.72263765335083
+stats in .\tuning\large\runs\/1701607398.p
+timestamp: 1701607559 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    38      [3503.50, 139.23]       [3969.99, 174.68]       [4148.00, 398.36]
+runtime 162.12895822525024
+stats in .\tuning\large\runs\/1701607559.p
+timestamp: 1701607721 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    48      [3401.50, 143.94]       [3787.09, 191.55]       [3985.50, 375.54]
+runtime 161.09765720367432
+stats in .\tuning\large\runs\/1701607721.p
+timestamp: 1701607882 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    34      [3467.20, 135.41]       [3607.64, 190.48]       [3886.40, 238.43]
+runtime 154.7695300579071
+stats in .\tuning\large\runs\/1701607882.p
+timestamp: 1701608036 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    40      [3488.10, 132.21]       [3812.18, 159.17]       [3951.10, 260.76]
+runtime 162.847647190094
+stats in .\tuning\large\runs\/1701608036.p
+timestamp: 1701608198 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    55      [3331.20, 148.62]       [3622.24, 190.76]       [3810.10, 303.96]
+runtime 159.58203101158142
+stats in .\tuning\large\runs\/1701608198.p
+timestamp: 1701608357 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    45      [3384.10, 145.70]       [3578.69, 302.98]       [3941.50, 422.37]
+runtime 160.36327481269836
+stats in .\tuning\large\runs\/1701608357.p
+timestamp: 1701608517 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    44      [3351.20, 155.52]       [3710.40, 228.08]       [4127.10, 357.54]
+runtime 167.91015195846558
+stats in .\tuning\large\runs\/1701608517.p
+timestamp: 1701608684 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    48      [3470.00, 131.54]       [3687.12, 176.71]       [3935.10, 285.87]
+runtime 153.2538948059082
+stats in .\tuning\large\runs\/1701608684.p
+timestamp: 1701608837 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    41      [3392.70, 150.03]       [3715.30, 195.19]       [3897.30, 384.97]
+runtime 154.67577958106995
+stats in .\tuning\large\runs\/1701608837.p
+timestamp: 1701608991 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    36      [3415.30, 147.13]       [3736.01, 272.64]       [4035.80, 470.20]
+runtime 158.44949865341187
+stats in .\tuning\large\runs\/1701608991.p
+timestamp: 1701609149 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    36      [3370.10, 154.53]       [3484.02, 255.61]       [3862.10, 296.28]
+runtime 157.98311471939087
+stats in .\tuning\large\runs\/1701609149.p
+timestamp: 1701609306 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    38      [3364.80, 151.80]       [3489.48, 316.85]       [3861.50, 408.40]
+runtime 158.67577457427979
+stats in .\tuning\large\runs\/1701609306.p
+timestamp: 1701609464 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    43      [3393.50, 147.95]       [3610.38, 195.11]       [3949.70, 291.80]
+runtime 154.80100274085999
+stats in .\tuning\large\runs\/1701609464.p
+timestamp: 1701609618 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    43      [3483.00, 129.91]       [3876.32, 177.63]       [4085.40, 319.15]
+runtime 161.5820288658142
+stats in .\tuning\large\runs\/1701609618.p
+timestamp: 1701609779 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    40      [3401.50, 146.18]       [3533.38, 319.42]       [3969.20, 413.39]
+runtime 158.91019487380981
+stats in .\tuning\large\runs\/1701609779.p
+timestamp: 1701609937 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    54      [3303.90, 158.49]       [3540.43, 242.34]       [3870.70, 407.76]
+runtime 160.05082082748413
+stats in .\tuning\large\runs\/1701609937.p
+timestamp: 1701610097 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    37      [3504.50, 138.05]       [3678.19, 177.89]       [3851.10, 259.85]
+runtime 155.5507996082306
+stats in .\tuning\large\runs\/1701610097.p
+timestamp: 1701610252 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    43      [3380.30, 151.16]       [3616.35, 198.89]       [3867.30, 257.82]
+runtime 159.50390648841858
+stats in .\tuning\large\runs\/1701610252.p
+timestamp: 1701610411 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    41      [3402.00, 133.59]       [3760.25, 164.93]       [3947.50, 300.16]
+runtime 155.58205461502075
+stats in .\tuning\large\runs\/1701610411.p
+timestamp: 1701610566 -> cxmethod mate, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    44      [3394.20, 140.18]       [3742.18, 172.06]       [3892.70, 276.32]
+runtime 155.36330604553223
+stats in .\tuning\large\runs\/1701610566.p
+timestamp: 1701610721 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    152     [4157.80, 680.01]       [4593.75, 867.95]       [5611.70, 1337.82]
+runtime 354.1601948738098
+stats in .\tuning\large\runs\/1701610721.p
+timestamp: 1701611075 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    152     [4212.20, 555.05]       [4683.13, 826.11]       [6497.20, 1280.77]
+runtime 346.4726686477661
+stats in .\tuning\large\runs\/1701611075.p
+timestamp: 1701611421 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    152     [4180.60, 649.45]       [4594.85, 874.61]       [5984.00, 1507.46]
+runtime 342.8945186138153
+stats in .\tuning\large\runs\/1701611421.p
+timestamp: 1701611763 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    152     [4232.40, 606.02]       [4645.40, 771.21]       [6092.10, 1208.81]
+runtime 347.67581272125244
+stats in .\tuning\large\runs\/1701611763.p
+timestamp: 1701612110 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    152     [4087.40, 653.82]       [4624.72, 858.02]       [5599.50, 1270.66]
+runtime 350.2383003234863
+stats in .\tuning\large\runs\/1701612110.p
+timestamp: 1701612460 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    152     [4197.70, 627.27]       [4652.65, 837.72]       [6096.00, 1358.74]
+runtime 345.5351755619049
+stats in .\tuning\large\runs\/1701612460.p
+timestamp: 1701612805 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    152     [4241.40, 657.06]       [4647.78, 831.49]       [5710.30, 1294.32]
+runtime 349.50391125679016
+stats in .\tuning\large\runs\/1701612805.p
+timestamp: 1701613154 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    152     [4167.80, 638.25]       [4585.37, 835.60]       [5876.00, 1337.65]
+runtime 346.6136908531189
+stats in .\tuning\large\runs\/1701613154.p
+timestamp: 1701613500 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    152     [4167.40, 593.35]       [4667.80, 792.66]       [5822.10, 1371.87]
+runtime 358.5664451122284
+stats in .\tuning\large\runs\/1701613500.p
+timestamp: 1701613858 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    152     [4206.40, 625.52]       [4634.97, 830.10]       [5549.80, 1373.49]
+runtime 363.2905650138855
+stats in .\tuning\large\runs\/1701613858.p
+timestamp: 1701614221 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    152     [4158.80, 628.15]       [4610.25, 819.29]       [5604.50, 1367.30]
+runtime 365.0667872428894
+stats in .\tuning\large\runs\/1701614221.p
+timestamp: 1701614586 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    152     [4191.70, 636.03]       [4699.09, 789.27]       [5859.20, 1184.25]
+runtime 362.639799118042
+stats in .\tuning\large\runs\/1701614586.p
+timestamp: 1701614948 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    152     [4115.80, 632.49]       [4558.56, 829.95]       [6100.40, 1302.62]
+runtime 363.88281655311584
+stats in .\tuning\large\runs\/1701614948.p
+timestamp: 1701615311 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    152     [4078.50, 600.71]       [4610.30, 822.98]       [5993.80, 1423.41]
+runtime 365.8593075275421
+stats in .\tuning\large\runs\/1701615311.p
+timestamp: 1701615676 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    152     [4155.50, 633.31]       [4572.53, 833.08]       [5419.70, 1423.47]
+runtime 364.0238847732544
+stats in .\tuning\large\runs\/1701615676.p
+timestamp: 1701616040 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    152     [4209.20, 690.31]       [4667.64, 829.42]       [6018.30, 1460.22]
+runtime 362.2480101585388
+stats in .\tuning\large\runs\/1701616040.p
+timestamp: 1701616402 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    152     [4200.80, 669.57]       [4650.02, 818.57]       [5779.40, 1279.23]
+runtime 364.800568819046
+stats in .\tuning\large\runs\/1701616402.p
+timestamp: 1701616766 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    152     [4127.90, 665.74]       [4628.82, 824.46]       [5924.80, 1534.86]
+runtime 362.3841996192932
+stats in .\tuning\large\runs\/1701616766.p
+timestamp: 1701617128 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    152     [4080.30, 630.63]       [4609.69, 829.19]       [5830.10, 1425.31]
+runtime 372.5135073661804
+stats in .\tuning\large\runs\/1701617128.p
+timestamp: 1701617500 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    152     [4210.20, 659.73]       [4621.92, 837.69]       [5958.40, 1412.45]
+runtime 376.01791071891785
+stats in .\tuning\large\runs\/1701617500.p
+timestamp: 1701617876 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    152     [4114.60, 658.41]       [4562.02, 886.77]       [5447.80, 1410.22]
+runtime 375.1313307285309
+stats in .\tuning\large\runs\/1701617876.p
+timestamp: 1701618251 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    152     [4198.70, 664.95]       [4604.00, 847.52]       [5341.20, 1234.81]
+runtime 385.3378005027771
+stats in .\tuning\large\runs\/1701618251.p
+timestamp: 1701618636 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    152     [4205.80, 634.06]       [4626.97, 841.03]       [6285.80, 1445.20]
+runtime 380.21605014801025
+stats in .\tuning\large\runs\/1701618636.p
+timestamp: 1701619016 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    152     [4141.70, 620.62]       [4665.80, 831.33]       [6343.60, 1363.20]
+runtime 382.8751618862152
+stats in .\tuning\large\runs\/1701619016.p
+timestamp: 1701619398 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    152     [4146.80, 621.33]       [4595.85, 828.97]       [6213.90, 1339.99]
+runtime 379.95602560043335
+stats in .\tuning\large\runs\/1701619398.p
+timestamp: 1701619777 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    152     [4134.80, 603.05]       [4593.12, 829.85]       [5442.20, 1439.98]
+runtime 384.4582884311676
+stats in .\tuning\large\runs\/1701619777.p
+timestamp: 1701620161 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    152     [4192.40, 648.03]       [4607.90, 849.39]       [5878.90, 1365.61]
+runtime 378.61648511886597
+stats in .\tuning\large\runs\/1701620161.p
+timestamp: 1701620539 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    152     [4083.00, 618.24]       [4594.06, 874.97]       [5928.80, 1475.46]
+runtime 380.2903220653534
+stats in .\tuning\large\runs\/1701620539.p
+timestamp: 1701620919 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    152     [4072.00, 635.27]       [4549.24, 832.23]       [5574.70, 1161.01]
+runtime 382.97965455055237
+stats in .\tuning\large\runs\/1701620919.p
+timestamp: 1701621301 -> cxmethod mate, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    152     [4114.50, 644.00]       [4664.66, 805.14]       [6239.50, 1256.46]
+runtime 391.0281608104706
+stats in .\tuning\large\runs\/1701621301.p
+timestamp: 1701621692 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    36      [3416.30, 136.82]       [3631.17, 192.68]       [3917.80, 249.64]
+runtime 228.0134129524231
+stats in .\tuning\large\runs\/1701621692.p
+timestamp: 1701621920 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    37      [3312.60, 164.22]       [3618.23, 307.44]       [4068.90, 477.78]
+runtime 223.1706302165985
+stats in .\tuning\large\runs\/1701621920.p
+timestamp: 1701622143 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    28      [3396.60, 167.07]       [3692.29, 261.15]       [4121.40, 510.48]
+runtime 214.12453174591064
+stats in .\tuning\large\runs\/1701622143.p
+timestamp: 1701622357 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    40      [3417.00, 152.04]       [3587.11, 209.30]       [4088.30, 322.33]
+runtime 214.79713582992554
+stats in .\tuning\large\runs\/1701622357.p
+timestamp: 1701622571 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    35      [3378.80, 203.44]       [3665.80, 281.33]       [4146.50, 414.64]
+runtime 238.45965147018433
+stats in .\tuning\large\runs\/1701622571.p
+timestamp: 1701622809 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    34      [3393.50, 142.83]       [3639.98, 230.40]       [3899.50, 367.63]
+runtime 215.18487119674683
+stats in .\tuning\large\runs\/1701622809.p
+timestamp: 1701623024 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    30      [3426.30, 161.07]       [3692.32, 239.98]       [3919.30, 420.71]
+runtime 222.95582127571106
+stats in .\tuning\large\runs\/1701623024.p
+timestamp: 1701623246 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    39      [3235.90, 157.75]       [3594.25, 249.94]       [3943.70, 472.35]
+runtime 228.94059658050537
+stats in .\tuning\large\runs\/1701623246.p
+timestamp: 1701623474 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    42      [3442.50, 158.60]       [3746.16, 230.21]       [4022.90, 399.01]
+runtime 221.1932384967804
+stats in .\tuning\large\runs\/1701623474.p
+timestamp: 1701623695 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    43      [3301.40, 141.96]       [3683.81, 212.96]       [3827.80, 524.12]
+runtime 234.67670798301697
+stats in .\tuning\large\runs\/1701623695.p
+timestamp: 1701623929 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    58      [3357.60, 161.58]       [3650.60, 312.73]       [4079.20, 548.85]
+runtime 219.28619003295898
+stats in .\tuning\large\runs\/1701623929.p
+timestamp: 1701624148 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    43      [3463.60, 126.52]       [3676.13, 217.21]       [4112.30, 367.12]
+runtime 216.6794867515564
+stats in .\tuning\large\runs\/1701624148.p
+timestamp: 1701624364 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    44      [3334.10, 151.99]       [3564.82, 208.08]       [4033.00, 286.55]
+runtime 225.24583268165588
+stats in .\tuning\large\runs\/1701624364.p
+timestamp: 1701624589 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    43      [3379.10, 125.53]       [3733.48, 163.37]       [3883.80, 346.17]
+runtime 220.94412517547607
+stats in .\tuning\large\runs\/1701624589.p
+timestamp: 1701624809 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    45      [3286.50, 156.52]       [3571.43, 286.55]       [3960.90, 491.35]
+runtime 208.62906408309937
+stats in .\tuning\large\runs\/1701624809.p
+timestamp: 1701625017 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    45      [3317.20, 143.07]       [3536.02, 265.34]       [4139.20, 496.42]
+runtime 205.08571457862854
+stats in .\tuning\large\runs\/1701625017.p
+timestamp: 1701625222 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    40      [3343.10, 153.73]       [3670.37, 273.10]       [4137.90, 548.58]
+runtime 207.72682881355286
+stats in .\tuning\large\runs\/1701625222.p
+timestamp: 1701625429 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    38      [3393.00, 149.20]       [3621.74, 348.88]       [4015.10, 679.66]
+runtime 209.50862431526184
+stats in .\tuning\large\runs\/1701625429.p
+timestamp: 1701625638 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    44      [3324.00, 159.31]       [3665.71, 201.93]       [3846.50, 318.20]
+runtime 209.18083882331848
+stats in .\tuning\large\runs\/1701625638.p
+timestamp: 1701625847 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    41      [3393.80, 130.94]       [3882.94, 156.55]       [4197.80, 269.11]
+runtime 206.43121075630188
+stats in .\tuning\large\runs\/1701625847.p
+timestamp: 1701626053 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    47      [3314.60, 150.98]       [3661.61, 307.41]       [3976.90, 714.89]
+runtime 206.44392704963684
+stats in .\tuning\large\runs\/1701626053.p
+timestamp: 1701626259 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    34      [3329.90, 168.69]       [3870.74, 206.21]       [4022.40, 385.53]
+runtime 204.16644644737244
+stats in .\tuning\large\runs\/1701626259.p
+timestamp: 1701626463 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    26      [3329.90, 155.18]       [3617.62, 219.46]       [3895.00, 342.31]
+runtime 207.15128898620605
+stats in .\tuning\large\runs\/1701626463.p
+timestamp: 1701626670 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    33      [3367.10, 172.07]       [3688.56, 250.60]       [3944.80, 436.08]
+runtime 207.6363401412964
+stats in .\tuning\large\runs\/1701626670.p
+timestamp: 1701626877 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    35      [3384.10, 167.36]       [3773.15, 238.10]       [4019.40, 473.82]
+runtime 202.33961749076843
+stats in .\tuning\large\runs\/1701626877.p
+timestamp: 1701627079 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    35      [3374.40, 153.24]       [3554.13, 274.41]       [3835.80, 418.69]
+runtime 210.58999156951904
+stats in .\tuning\large\runs\/1701627079.p
+timestamp: 1701627289 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    35      [3284.20, 185.42]       [3521.70, 335.68]       [3869.50, 469.12]
+runtime 208.71541118621826
+stats in .\tuning\large\runs\/1701627289.p
+timestamp: 1701627497 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    41      [3432.60, 163.34]       [3645.99, 345.96]       [4066.00, 482.49]
+runtime 209.41885781288147
+stats in .\tuning\large\runs\/1701627497.p
+timestamp: 1701627706 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    54      [3331.50, 153.85]       [3652.87, 251.06]       [4050.20, 461.72]
+runtime 209.18492221832275
+stats in .\tuning\large\runs\/1701627706.p
+timestamp: 1701627915 -> cxmethod mate, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    32      [3303.30, 146.37]       [3645.21, 214.14]       [3801.10, 407.32]
+runtime 207.32590866088867
+stats in .\tuning\large\runs\/1701627915.p
+timestamp: 1701628122 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    50      [3420.10, 156.06]       [3728.66, 181.07]       [3962.50, 308.65]
+runtime 156.4823853969574
+stats in .\tuning\large\runs\/1701628122.p
+timestamp: 1701628278 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    62      [3521.50, 123.55]       [3760.40, 159.10]       [4008.60, 288.87]
+runtime 159.09204149246216
+stats in .\tuning\large\runs\/1701628278.p
+timestamp: 1701628437 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    62      [3324.30, 137.34]       [3652.98, 199.63]       [3977.10, 314.46]
+runtime 166.15485215187073
+stats in .\tuning\large\runs\/1701628437.p
+timestamp: 1701628603 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    39      [3449.90, 136.16]       [3721.40, 156.72]       [3820.50, 240.92]
+runtime 149.35819578170776
+stats in .\tuning\large\runs\/1701628603.p
+timestamp: 1701628752 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    48      [3408.50, 161.41]       [3728.89, 213.54]       [3926.90, 434.64]
+runtime 165.26473832130432
+stats in .\tuning\large\runs\/1701628752.p
+timestamp: 1701628917 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    45      [3409.50, 139.88]       [3591.35, 193.06]       [3918.50, 239.91]
+runtime 159.73379230499268
+stats in .\tuning\large\runs\/1701628917.p
+timestamp: 1701629076 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    44      [3545.10, 142.61]       [3716.62, 205.67]       [4029.40, 350.89]
+runtime 155.78090858459473
+stats in .\tuning\large\runs\/1701629076.p
+timestamp: 1701629231 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    30      [3475.70, 139.90]       [3535.41, 243.77]       [3817.10, 279.01]
+runtime 157.65620279312134
+stats in .\tuning\large\runs\/1701629231.p
+timestamp: 1701629388 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    38      [3502.40, 133.70]       [3701.15, 202.83]       [4049.30, 281.78]
+runtime 161.15647554397583
+stats in .\tuning\large\runs\/1701629388.p
+timestamp: 1701629549 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    45      [3405.60, 124.90]       [3530.96, 209.43]       [3894.60, 262.57]
+runtime 156.46917343139648
+stats in .\tuning\large\runs\/1701629549.p
+timestamp: 1701629705 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    42      [3374.10, 159.58]       [3800.93, 188.73]       [4029.40, 336.62]
+runtime 155.31319904327393
+stats in .\tuning\large\runs\/1701629705.p
+timestamp: 1701629860 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    47      [3323.50, 155.84]       [3768.48, 213.30]       [3995.70, 350.69]
+runtime 166.46973061561584
+stats in .\tuning\large\runs\/1701629860.p
+timestamp: 1701630026 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    41      [3350.90, 142.78]       [3708.43, 172.95]       [3854.20, 279.32]
+runtime 164.0480818748474
+stats in .\tuning\large\runs\/1701630026.p
+timestamp: 1701630190 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    34      [3352.60, 144.55]       [3692.78, 172.28]       [3814.00, 318.19]
+runtime 152.92333388328552
+stats in .\tuning\large\runs\/1701630190.p
+timestamp: 1701630342 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    39      [3318.00, 142.59]       [3618.83, 238.53]       [3902.40, 404.99]
+runtime 159.34547209739685
+stats in .\tuning\large\runs\/1701630342.p
+timestamp: 1701630501 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    51      [3406.10, 156.70]       [3523.65, 295.89]       [3912.60, 385.54]
+runtime 160.56444263458252
+stats in .\tuning\large\runs\/1701630501.p
+timestamp: 1701630661 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    50      [3458.20, 156.92]       [3688.88, 182.55]       [3778.70, 292.65]
+runtime 159.1741065979004
+stats in .\tuning\large\runs\/1701630661.p
+timestamp: 1701630820 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    51      [3382.00, 134.60]       [3511.44, 277.17]       [3911.40, 417.16]
+runtime 159.29420828819275
+stats in .\tuning\large\runs\/1701630820.p
+timestamp: 1701630979 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    50      [3371.80, 138.23]       [3509.74, 234.43]       [3885.00, 319.29]
+runtime 160.31523942947388
+stats in .\tuning\large\runs\/1701630979.p
+timestamp: 1701631139 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    24      [3464.50, 152.79]       [3782.55, 163.78]       [3849.20, 233.23]
+runtime 160.6904742717743
+stats in .\tuning\large\runs\/1701631139.p
+timestamp: 1701631299 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    38      [3408.80, 155.42]       [3592.48, 235.38]       [4004.20, 406.22]
+runtime 169.17510557174683
+stats in .\tuning\large\runs\/1701631299.p
+timestamp: 1701631468 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    42      [3411.00, 154.05]       [3798.78, 201.88]       [4035.90, 373.31]
+runtime 168.19099187850952
+stats in .\tuning\large\runs\/1701631468.p
+timestamp: 1701631636 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    30      [3420.50, 141.13]       [3599.15, 233.72]       [3904.30, 337.40]
+runtime 167.72250056266785
+stats in .\tuning\large\runs\/1701631636.p
+timestamp: 1701631803 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    37      [3463.90, 133.12]       [3856.62, 153.51]       [3980.80, 303.98]
+runtime 162.14462304115295
+stats in .\tuning\large\runs\/1701631803.p
+timestamp: 1701631965 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    60      [3428.60, 127.59]       [3691.86, 161.80]       [3907.80, 231.48]
+runtime 168.61362504959106
+stats in .\tuning\large\runs\/1701631965.p
+timestamp: 1701632133 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    47      [3464.50, 119.10]       [3569.47, 217.80]       [3894.60, 277.60]
+runtime 165.4888436794281
+stats in .\tuning\large\runs\/1701632133.p
+timestamp: 1701632298 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    39      [3420.60, 170.22]       [3735.68, 210.42]       [3893.50, 358.53]
+runtime 172.45791697502136
+stats in .\tuning\large\runs\/1701632298.p
+timestamp: 1701632470 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    53      [3422.10, 147.50]       [3751.50, 200.27]       [3983.40, 367.05]
+runtime 171.64777779579163
+stats in .\tuning\large\runs\/1701632470.p
+timestamp: 1701632641 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    33      [3479.90, 162.70]       [3557.45, 258.44]       [3997.80, 295.03]
+runtime 164.42714095115662
+stats in .\tuning\large\runs\/1701632641.p
+timestamp: 1701632805 -> cxmethod mate, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    35      [3367.80, 150.76]       [3653.36, 177.45]       [3771.50, 339.70]
+runtime 166.42803978919983
+stats in .\tuning\large\runs\/1701632805.p
+timestamp: 1701632971 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    152     [4068.10, 581.33]       [4571.30, 825.67]       [5871.60, 1275.52]
+runtime 368.1310408115387
+stats in .\tuning\large\runs\/1701632971.p
+timestamp: 1701633339 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    152     [4043.50, 627.04]       [4627.12, 844.24]       [6198.30, 1322.90]
+runtime 365.28782534599304
+stats in .\tuning\large\runs\/1701633339.p
+timestamp: 1701633704 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    152     [4093.90, 612.52]       [4568.03, 794.18]       [5790.50, 1249.92]
+runtime 369.5853440761566
+stats in .\tuning\large\runs\/1701633704.p
+timestamp: 1701634073 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    152     [4058.40, 624.51]       [4657.41, 784.37]       [5905.20, 1280.86]
+runtime 368.61713099479675
+stats in .\tuning\large\runs\/1701634073.p
+timestamp: 1701634441 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    152     [4099.90, 578.42]       [4539.31, 865.29]       [5813.60, 1295.43]
+runtime 366.77388644218445
+stats in .\tuning\large\runs\/1701634441.p
+timestamp: 1701634807 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    152     [4134.00, 626.84]       [4563.45, 821.59]       [5480.00, 1395.69]
+runtime 373.63379740715027
+stats in .\tuning\large\runs\/1701634807.p
+timestamp: 1701635180 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    152     [4089.30, 602.87]       [4512.51, 843.11]       [5465.20, 1370.61]
+runtime 371.368771314621
+stats in .\tuning\large\runs\/1701635180.p
+timestamp: 1701635551 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    152     [4108.70, 648.32]       [4508.12, 866.06]       [5370.80, 1299.66]
+runtime 377.4005744457245
+stats in .\tuning\large\runs\/1701635551.p
+timestamp: 1701635928 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    152     [4180.00, 629.76]       [4562.71, 827.72]       [5398.80, 1342.58]
+runtime 377.6511197090149
+stats in .\tuning\large\runs\/1701635928.p
+timestamp: 1701636305 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    152     [4083.50, 614.38]       [4533.12, 801.52]       [5655.50, 1232.44]
+runtime 374.99545454978943
+stats in .\tuning\large\runs\/1701636305.p
+timestamp: 1701636680 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    152     [4027.40, 611.46]       [4572.34, 758.09]       [5638.10, 1184.22]
+runtime 392.74607276916504
+stats in .\tuning\large\runs\/1701636680.p
+timestamp: 1701637072 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    152     [4126.80, 580.93]       [4583.05, 793.73]       [5549.10, 1329.79]
+runtime 388.35601234436035
+stats in .\tuning\large\runs\/1701637072.p
+timestamp: 1701637460 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    152     [4159.50, 612.96]       [4449.00, 855.74]       [5328.50, 1310.42]
+runtime 387.20031356811523
+stats in .\tuning\large\runs\/1701637460.p
+timestamp: 1701637847 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    152     [4039.50, 588.35]       [4535.96, 775.33]       [5623.70, 1163.47]
+runtime 385.54468417167664
+stats in .\tuning\large\runs\/1701637847.p
+timestamp: 1701638232 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    152     [4176.70, 596.79]       [4542.02, 833.87]       [5433.10, 1448.99]
+runtime 382.6577789783478
+stats in .\tuning\large\runs\/1701638232.p
+timestamp: 1701638614 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    152     [4069.70, 640.53]       [4583.69, 797.60]       [5556.30, 1258.38]
+runtime 382.29583263397217
+stats in .\tuning\large\runs\/1701638614.p
+timestamp: 1701638996 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    152     [4036.50, 602.04]       [4487.92, 873.36]       [5505.20, 1384.86]
+runtime 370.93699407577515
+stats in .\tuning\large\runs\/1701638996.p
+timestamp: 1701639366 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    152     [4159.40, 592.45]       [4543.95, 834.40]       [5628.80, 1365.67]
+runtime 368.17189836502075
+stats in .\tuning\large\runs\/1701639366.p
+timestamp: 1701639734 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    152     [4139.70, 634.22]       [4550.60, 817.28]       [5366.60, 1353.60]
+runtime 374.56309962272644
+stats in .\tuning\large\runs\/1701639734.p
+timestamp: 1701640108 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    152     [4190.30, 569.33]       [4480.60, 840.97]       [5647.80, 1330.17]
+runtime 355.44007086753845
+stats in .\tuning\large\runs\/1701640108.p
+timestamp: 1701640463 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    152     [4032.00, 621.00]       [4532.03, 796.10]       [5639.80, 1247.73]
+runtime 346.68916606903076
+stats in .\tuning\large\runs\/1701640463.p
+timestamp: 1701640809 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    152     [4043.20, 602.09]       [4494.37, 839.54]       [5526.10, 1442.44]
+runtime 339.5117700099945
+stats in .\tuning\large\runs\/1701640809.p
+timestamp: 1701641148 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    152     [4137.20, 627.34]       [4572.70, 847.30]       [5969.90, 1328.06]
+runtime 340.3307616710663
+stats in .\tuning\large\runs\/1701641148.p
+timestamp: 1701641488 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    152     [4150.30, 608.79]       [4557.50, 790.73]       [5677.20, 1289.03]
+runtime 344.29976201057434
+stats in .\tuning\large\runs\/1701641488.p
+timestamp: 1701641832 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    152     [4121.40, 644.20]       [4606.64, 828.36]       [5837.10, 1449.82]
+runtime 343.20685172080994
+stats in .\tuning\large\runs\/1701641832.p
+timestamp: 1701642175 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    152     [4124.10, 587.74]       [4570.63, 773.24]       [5745.60, 1474.92]
+runtime 339.97333002090454
+stats in .\tuning\large\runs\/1701642175.p
+timestamp: 1701642514 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    152     [4127.60, 619.93]       [4552.62, 819.74]       [5747.00, 1395.96]
+runtime 344.56726026535034
+stats in .\tuning\large\runs\/1701642514.p
+timestamp: 1701642858 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    152     [4168.60, 614.08]       [4505.16, 868.97]       [5645.70, 1306.08]
+runtime 341.4586908817291
+stats in .\tuning\large\runs\/1701642858.p
+timestamp: 1701643199 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    152     [4076.50, 604.63]       [4525.47, 834.33]       [5561.40, 1349.50]
+runtime 342.39635968208313
+stats in .\tuning\large\runs\/1701643199.p
+timestamp: 1701643541 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.1, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    152     [4141.10, 616.02]       [4552.69, 817.90]       [5727.30, 1233.23]
+runtime 339.8656086921692
+stats in .\tuning\large\runs\/1701643541.p
+timestamp: 1701643880 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    43      [3341.60, 139.39]       [3659.91, 217.59]       [4410.40, 350.02]
+runtime 192.47526621818542
+stats in .\tuning\large\runs\/1701643880.p
+timestamp: 1701644072 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    34      [3284.10, 159.03]       [3541.92, 254.05]       [3893.80, 480.24]
+runtime 196.58496165275574
+stats in .\tuning\large\runs\/1701644072.p
+timestamp: 1701644268 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    39      [3242.50, 142.64]       [3550.21, 306.67]       [4010.00, 485.49]
+runtime 193.21023869514465
+stats in .\tuning\large\runs\/1701644268.p
+timestamp: 1701644461 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    36      [3436.20, 147.58]       [3755.18, 216.83]       [4037.70, 441.78]
+runtime 190.41362595558167
+stats in .\tuning\large\runs\/1701644461.p
+timestamp: 1701644651 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    35      [3306.20, 156.92]       [3662.22, 221.16]       [3949.50, 342.86]
+runtime 189.78916001319885
+stats in .\tuning\large\runs\/1701644651.p
+timestamp: 1701644840 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    37      [3356.90, 177.13]       [3586.12, 342.88]       [4090.50, 453.79]
+runtime 192.02360367774963
+stats in .\tuning\large\runs\/1701644840.p
+timestamp: 1701645032 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    41      [3287.00, 145.61]       [3618.12, 235.62]       [4039.30, 435.04]
+runtime 192.633234500885
+stats in .\tuning\large\runs\/1701645032.p
+timestamp: 1701645224 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    44      [3371.40, 144.94]       [3691.35, 269.28]       [4033.60, 540.74]
+runtime 190.24293899536133
+stats in .\tuning\large\runs\/1701645224.p
+timestamp: 1701645414 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    36      [3326.00, 151.49]       [3538.65, 280.27]       [3944.10, 442.23]
+runtime 189.7588758468628
+stats in .\tuning\large\runs\/1701645414.p
+timestamp: 1701645603 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    47      [3326.70, 176.74]       [3530.59, 336.53]       [3842.40, 646.42]
+runtime 191.993479013443
+stats in .\tuning\large\runs\/1701645603.p
+timestamp: 1701645794 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    45      [3263.40, 161.12]       [3692.46, 248.79]       [4156.30, 427.87]
+runtime 198.97816133499146
+stats in .\tuning\large\runs\/1701645794.p
+timestamp: 1701645992 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    39      [3285.80, 157.37]       [3714.12, 261.22]       [4034.20, 533.68]
+runtime 198.7128188610077
+stats in .\tuning\large\runs\/1701645992.p
+timestamp: 1701646190 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    36      [3363.70, 144.81]       [3584.43, 247.77]       [3936.60, 486.13]
+runtime 199.65065670013428
+stats in .\tuning\large\runs\/1701646190.p
+timestamp: 1701646389 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    29      [3366.90, 147.80]       [3592.69, 263.67]       [3927.40, 376.09]
+runtime 195.18216061592102
+stats in .\tuning\large\runs\/1701646389.p
+timestamp: 1701646584 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    43      [3283.60, 142.13]       [3576.14, 301.69]       [4040.00, 490.34]
+runtime 197.2605700492859
+stats in .\tuning\large\runs\/1701646584.p
+timestamp: 1701646781 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    33      [3312.10, 143.19]       [3612.45, 268.55]       [3908.30, 473.06]
+runtime 195.013103723526
+stats in .\tuning\large\runs\/1701646781.p
+timestamp: 1701646976 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    44      [3266.60, 147.46]       [3769.70, 227.24]       [4038.90, 472.85]
+runtime 196.00026440620422
+stats in .\tuning\large\runs\/1701646976.p
+timestamp: 1701647172 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    49      [3449.30, 135.85]       [3690.06, 233.91]       [3986.10, 412.16]
+runtime 196.94055557250977
+stats in .\tuning\large\runs\/1701647172.p
+timestamp: 1701647368 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    44      [3279.90, 152.79]       [3724.32, 338.92]       [4123.70, 674.27]
+runtime 199.13086009025574
+stats in .\tuning\large\runs\/1701647368.p
+timestamp: 1701647567 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    38      [3326.30, 154.83]       [3552.66, 332.24]       [3906.10, 616.55]
+runtime 193.94606971740723
+stats in .\tuning\large\runs\/1701647567.p
+timestamp: 1701647760 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    40      [3358.40, 146.46]       [3689.06, 250.07]       [4004.80, 386.49]
+runtime 196.1671552658081
+stats in .\tuning\large\runs\/1701647760.p
+timestamp: 1701647956 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    50      [3358.60, 150.29]       [3747.91, 263.42]       [4088.20, 516.03]
+runtime 196.2786386013031
+stats in .\tuning\large\runs\/1701647956.p
+timestamp: 1701648152 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    34      [3312.30, 167.36]       [3627.08, 302.13]       [4125.90, 575.19]
+runtime 195.4057652950287
+stats in .\tuning\large\runs\/1701648152.p
+timestamp: 1701648347 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    43      [3265.80, 158.27]       [3560.63, 298.23]       [3913.60, 556.44]
+runtime 199.2516438961029
+stats in .\tuning\large\runs\/1701648347.p
+timestamp: 1701648546 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    40      [3393.10, 146.87]       [3610.59, 286.88]       [3969.50, 460.67]
+runtime 194.94126653671265
+stats in .\tuning\large\runs\/1701648546.p
+timestamp: 1701648740 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    41      [3259.50, 155.68]       [3558.84, 312.17]       [3960.50, 526.36]
+runtime 205.66198348999023
+stats in .\tuning\large\runs\/1701648740.p
+timestamp: 1701648945 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    42      [3364.00, 152.18]       [3682.43, 283.13]       [4085.40, 469.51]
+runtime 202.52307295799255
+stats in .\tuning\large\runs\/1701648945.p
+timestamp: 1701649147 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    38      [3357.00, 167.43]       [3634.44, 243.91]       [3982.00, 394.71]
+runtime 196.8840320110321
+stats in .\tuning\large\runs\/1701649147.p
+timestamp: 1701649343 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    36      [3306.60, 134.38]       [3587.20, 253.40]       [4023.50, 392.34]
+runtime 196.12005066871643
+stats in .\tuning\large\runs\/1701649343.p
+timestamp: 1701649539 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    43      [3358.10, 169.00]       [3712.73, 301.12]       [4146.70, 521.44]
+runtime 197.76234459877014
+stats in .\tuning\large\runs\/1701649539.p
+timestamp: 1701649736 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    57      [3452.60, 136.47]       [3696.26, 201.01]       [3880.20, 373.55]
+runtime 150.38858723640442
+stats in .\tuning\large\runs\/1701649736.p
+timestamp: 1701649886 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    47      [3448.30, 129.66]       [3789.26, 170.79]       [3979.60, 316.36]
+runtime 160.3427231311798
+stats in .\tuning\large\runs\/1701649886.p
+timestamp: 1701650046 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    54      [3417.90, 132.81]       [3717.39, 179.74]       [3959.80, 365.47]
+runtime 159.59371519088745
+stats in .\tuning\large\runs\/1701650046.p
+timestamp: 1701650205 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    42      [3336.60, 134.44]       [3761.36, 189.93]       [3916.70, 388.75]
+runtime 166.28232789039612
+stats in .\tuning\large\runs\/1701650205.p
+timestamp: 1701650371 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    56      [3397.20, 129.94]       [3637.55, 205.10]       [3947.30, 351.84]
+runtime 160.34588527679443
+stats in .\tuning\large\runs\/1701650371.p
+timestamp: 1701650531 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    42      [3428.70, 135.23]       [3687.93, 229.43]       [3975.70, 435.76]
+runtime 158.1281771659851
+stats in .\tuning\large\runs\/1701650531.p
+timestamp: 1701650689 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    46      [3529.00, 132.25]       [3790.04, 158.93]       [3909.80, 256.42]
+runtime 155.50413846969604
+stats in .\tuning\large\runs\/1701650689.p
+timestamp: 1701650844 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    72      [3317.50, 132.05]       [3506.69, 267.47]       [3914.20, 396.45]
+runtime 165.17735123634338
+stats in .\tuning\large\runs\/1701650844.p
+timestamp: 1701651009 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    43      [3430.00, 118.82]       [3852.96, 158.22]       [4018.50, 330.53]
+runtime 158.8965368270874
+stats in .\tuning\large\runs\/1701651009.p
+timestamp: 1701651167 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    34      [3411.80, 156.56]       [3738.71, 177.97]       [3847.20, 298.52]
+runtime 156.6004877090454
+stats in .\tuning\large\runs\/1701651167.p
+timestamp: 1701651323 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    38      [3480.10, 120.76]       [3765.28, 202.41]       [4078.00, 387.78]
+runtime 156.9138171672821
+stats in .\tuning\large\runs\/1701651323.p
+timestamp: 1701651479 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    46      [3395.80, 129.58]       [3670.90, 178.34]       [3979.20, 269.74]
+runtime 156.2115833759308
+stats in .\tuning\large\runs\/1701651479.p
+timestamp: 1701651635 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    41      [3425.20, 125.24]       [3646.42, 179.23]       [3960.50, 276.33]
+runtime 158.75923824310303
+stats in .\tuning\large\runs\/1701651635.p
+timestamp: 1701651793 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    57      [3300.40, 162.35]       [3482.39, 257.27]       [3948.30, 338.26]
+runtime 163.58824157714844
+stats in .\tuning\large\runs\/1701651793.p
+timestamp: 1701651956 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    52      [3341.20, 142.82]       [3686.17, 186.45]       [3906.60, 372.49]
+runtime 164.6671531200409
+stats in .\tuning\large\runs\/1701651956.p
+timestamp: 1701652120 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    30      [3431.20, 143.60]       [3829.06, 167.90]       [3910.00, 306.85]
+runtime 160.56337332725525
+stats in .\tuning\large\runs\/1701652120.p
+timestamp: 1701652280 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    68      [3352.80, 153.03]       [3627.78, 206.87]       [4097.20, 367.55]
+runtime 154.38720607757568
+stats in .\tuning\large\runs\/1701652280.p
+timestamp: 1701652434 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    52      [3334.80, 119.68]       [3664.81, 191.77]       [3879.10, 413.14]
+runtime 157.41912603378296
+stats in .\tuning\large\runs\/1701652434.p
+timestamp: 1701652591 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    45      [3281.50, 166.61]       [3395.42, 315.59]       [3975.70, 408.02]
+runtime 158.70118856430054
+stats in .\tuning\large\runs\/1701652591.p
+timestamp: 1701652749 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    56      [3339.40, 152.67]       [3642.46, 203.83]       [3921.90, 329.16]
+runtime 158.84239315986633
+stats in .\tuning\large\runs\/1701652749.p
+timestamp: 1701652907 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    27      [3425.40, 129.49]       [3947.57, 147.55]       [4088.80, 256.44]
+runtime 161.30683851242065
+stats in .\tuning\large\runs\/1701652907.p
+timestamp: 1701653068 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    39      [3438.70, 137.18]       [3810.11, 156.41]       [3936.60, 267.31]
+runtime 179.51787304878235
+stats in .\tuning\large\runs\/1701653068.p
+timestamp: 1701653247 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    34      [3454.40, 129.29]       [3801.81, 159.17]       [3926.50, 342.70]
+runtime 176.37633180618286
+stats in .\tuning\large\runs\/1701653247.p
+timestamp: 1701653423 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    46      [3447.40, 139.35]       [3662.68, 245.68]       [4220.50, 310.17]
+runtime 157.0792863368988
+stats in .\tuning\large\runs\/1701653423.p
+timestamp: 1701653580 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    43      [3353.20, 144.45]       [3667.75, 168.41]       [3793.60, 251.37]
+runtime 154.73607754707336
+stats in .\tuning\large\runs\/1701653580.p
+timestamp: 1701653734 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    46      [3405.20, 130.68]       [3541.65, 268.18]       [4014.60, 346.66]
+runtime 162.84604215621948
+stats in .\tuning\large\runs\/1701653734.p
+timestamp: 1701653896 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    55      [3435.10, 134.60]       [3616.48, 231.02]       [3953.10, 328.88]
+runtime 159.62787318229675
+stats in .\tuning\large\runs\/1701653896.p
+timestamp: 1701654055 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    57      [3327.90, 145.32]       [3630.52, 215.53]       [3837.90, 361.31]
+runtime 160.5190269947052
+stats in .\tuning\large\runs\/1701654055.p
+timestamp: 1701654215 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    48      [3350.40, 138.75]       [3528.68, 290.96]       [3954.20, 386.64]
+runtime 151.88534903526306
+stats in .\tuning\large\runs\/1701654215.p
+timestamp: 1701654366 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.001, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    38      [3359.30, 132.20]       [3512.75, 297.76]       [4015.50, 369.74]
+runtime 142.24043250083923
+stats in .\tuning\large\runs\/1701654366.p
+timestamp: 1701654508 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    152     [4123.00, 593.76]       [4528.72, 843.07]       [5924.70, 1446.82]
+runtime 297.95847845077515
+stats in .\tuning\large\runs\/1701654508.p
+timestamp: 1701654805 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    152     [4098.60, 592.90]       [4606.46, 768.50]       [5793.10, 1350.51]
+runtime 306.1626148223877
+stats in .\tuning\large\runs\/1701654805.p
+timestamp: 1701655111 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    152     [4193.20, 636.59]       [4579.48, 847.33]       [5697.10, 1390.76]
+runtime 305.5228304862976
+stats in .\tuning\large\runs\/1701655111.p
+timestamp: 1701655416 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    152     [4163.70, 618.96]       [4564.50, 859.06]       [5602.20, 1288.49]
+runtime 303.3362560272217
+stats in .\tuning\large\runs\/1701655416.p
+timestamp: 1701655719 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    152     [4112.00, 568.10]       [4609.13, 767.41]       [5672.20, 1224.91]
+runtime 306.9933195114136
+stats in .\tuning\large\runs\/1701655719.p
+timestamp: 1701656025 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    152     [4151.20, 606.18]       [4570.43, 816.55]       [5321.90, 1415.63]
+runtime 306.63477396965027
+stats in .\tuning\large\runs\/1701656025.p
+timestamp: 1701656331 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    152     [4182.70, 624.66]       [4620.57, 802.70]       [5737.20, 1300.19]
+runtime 306.0731201171875
+stats in .\tuning\large\runs\/1701656331.p
+timestamp: 1701656637 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    152     [4179.90, 628.93]       [4564.38, 844.41]       [6001.10, 1326.34]
+runtime 306.40208554267883
+stats in .\tuning\large\runs\/1701656637.p
+timestamp: 1701656943 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    152     [4172.30, 629.67]       [4551.78, 826.59]       [5580.90, 1323.97]
+runtime 308.35600686073303
+stats in .\tuning\large\runs\/1701656943.p
+timestamp: 1701657251 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    152     [4119.70, 608.35]       [4569.08, 776.03]       [5637.50, 1452.12]
+runtime 305.10673093795776
+stats in .\tuning\large\runs\/1701657251.p
+timestamp: 1701657556 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    152     [4126.10, 625.31]       [4622.53, 829.29]       [5828.50, 1348.63]
+runtime 297.06066155433655
+stats in .\tuning\large\runs\/1701657556.p
+timestamp: 1701657853 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    152     [4139.60, 621.49]       [4554.19, 827.79]       [5650.50, 1219.04]
+runtime 276.0769257545471
+stats in .\tuning\large\runs\/1701657853.p
+timestamp: 1701658129 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    152     [4147.70, 628.89]       [4581.01, 810.66]       [6016.60, 1246.79]
+runtime 279.6557137966156
+stats in .\tuning\large\runs\/1701658129.p
+timestamp: 1701658408 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    152     [4071.00, 620.98]       [4649.10, 791.81]       [5729.50, 1219.77]
+runtime 277.29700231552124
+stats in .\tuning\large\runs\/1701658408.p
+timestamp: 1701658685 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    152     [4091.40, 578.24]       [4491.93, 809.62]       [5433.80, 1299.92]
+runtime 277.87577533721924
+stats in .\tuning\large\runs\/1701658685.p
+timestamp: 1701658962 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    152     [4182.00, 593.94]       [4551.72, 824.27]       [5464.20, 1452.72]
+runtime 276.1889555454254
+stats in .\tuning\large\runs\/1701658962.p
+timestamp: 1701659238 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    152     [4053.70, 647.95]       [4573.72, 836.28]       [5696.50, 1384.59]
+runtime 276.2364375591278
+stats in .\tuning\large\runs\/1701659238.p
+timestamp: 1701659514 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    152     [4156.40, 627.33]       [4582.16, 810.99]       [5594.10, 1263.74]
+runtime 276.86226296424866
+stats in .\tuning\large\runs\/1701659514.p
+timestamp: 1701659790 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    152     [4141.80, 625.96]       [4572.19, 839.87]       [5830.00, 1222.96]
+runtime 275.0503730773926
+stats in .\tuning\large\runs\/1701659790.p
+timestamp: 1701660065 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    152     [4032.00, 637.08]       [4585.95, 848.23]       [5809.10, 1353.27]
+runtime 275.7385401725769
+stats in .\tuning\large\runs\/1701660065.p
+timestamp: 1701660340 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    152     [4134.30, 598.55]       [4520.92, 824.62]       [5633.10, 1330.03]
+runtime 279.17647647857666
+stats in .\tuning\large\runs\/1701660340.p
+timestamp: 1701660619 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    152     [4102.40, 609.30]       [4495.18, 858.26]       [5576.80, 1430.53]
+runtime 275.2478618621826
+stats in .\tuning\large\runs\/1701660619.p
+timestamp: 1701660894 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    152     [4122.40, 653.28]       [4599.73, 841.25]       [5739.60, 1332.84]
+runtime 278.0058364868164
+stats in .\tuning\large\runs\/1701660894.p
+timestamp: 1701661172 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    152     [4108.00, 643.08]       [4564.91, 859.34]       [5840.30, 1355.79]
+runtime 273.70952701568604
+stats in .\tuning\large\runs\/1701661172.p
+timestamp: 1701661445 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    152     [4111.90, 653.76]       [4586.02, 851.59]       [5427.40, 1267.17]
+runtime 276.7413651943207
+stats in .\tuning\large\runs\/1701661445.p
+timestamp: 1701661721 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    152     [4216.70, 622.25]       [4639.24, 811.58]       [5426.60, 1313.66]
+runtime 276.1013331413269
+stats in .\tuning\large\runs\/1701661721.p
+timestamp: 1701661997 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    152     [4090.30, 621.50]       [4461.97, 815.64]       [5141.40, 1345.57]
+runtime 281.10195326805115
+stats in .\tuning\large\runs\/1701661997.p
+timestamp: 1701662278 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    152     [4103.90, 567.19]       [4529.32, 791.43]       [5451.20, 1568.54]
+runtime 277.5556881427765
+stats in .\tuning\large\runs\/1701662278.p
+timestamp: 1701662555 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    152     [4167.50, 633.62]       [4621.69, 797.57]       [5922.10, 1216.56]
+runtime 282.1188061237335
+stats in .\tuning\large\runs\/1701662555.p
+timestamp: 1701662837 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.1, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    152     [4209.70, 609.56]       [4560.77, 808.25]       [5703.60, 1387.96]
+runtime 278.38509821891785
+stats in .\tuning\large\runs\/1701662837.p
+timestamp: 1701663115 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    52      [3356.10, 139.94]       [3665.59, 222.70]       [4004.30, 343.50]
+runtime 159.8229739665985
+stats in .\tuning\large\runs\/1701663115.p
+timestamp: 1701663274 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    37      [3325.50, 165.74]       [3677.87, 317.26]       [4147.60, 501.82]
+runtime 160.38574600219727
+stats in .\tuning\large\runs\/1701663274.p
+timestamp: 1701663434 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    42      [3342.60, 151.66]       [3816.85, 212.30]       [4077.70, 445.55]
+runtime 160.22989797592163
+stats in .\tuning\large\runs\/1701663434.p
+timestamp: 1701663594 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    46      [3317.90, 127.86]       [3615.74, 215.84]       [4158.40, 362.65]
+runtime 163.18337535858154
+stats in .\tuning\large\runs\/1701663594.p
+timestamp: 1701663757 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    45      [3409.20, 140.21]       [3792.67, 192.64]       [4020.90, 352.13]
+runtime 160.0430827140808
+stats in .\tuning\large\runs\/1701663757.p
+timestamp: 1701663917 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    43      [3230.20, 157.53]       [3715.88, 257.06]       [4018.50, 507.39]
+runtime 160.0903196334839
+stats in .\tuning\large\runs\/1701663917.p
+timestamp: 1701664077 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    60      [3437.40, 167.01]       [3730.72, 313.53]       [4208.70, 497.47]
+runtime 164.07508993148804
+stats in .\tuning\large\runs\/1701664077.p
+timestamp: 1701664241 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    42      [3418.20, 147.49]       [3757.12, 222.48]       [4173.40, 388.94]
+runtime 159.40356278419495
+stats in .\tuning\large\runs\/1701664241.p
+timestamp: 1701664400 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    38      [3408.50, 125.28]       [3623.76, 195.32]       [3847.90, 348.95]
+runtime 162.5601806640625
+stats in .\tuning\large\runs\/1701664400.p
+timestamp: 1701664562 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    31      [3371.10, 169.44]       [3657.38, 294.03]       [3883.30, 538.66]
+runtime 162.76357221603394
+stats in .\tuning\large\runs\/1701664562.p
+timestamp: 1701664724 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    34      [3320.40, 160.01]       [3774.12, 204.15]       [3939.80, 461.58]
+runtime 161.4358446598053
+stats in .\tuning\large\runs\/1701664724.p
+timestamp: 1701664885 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    46      [3388.00, 149.18]       [3642.49, 233.24]       [3902.90, 434.15]
+runtime 162.70182943344116
+stats in .\tuning\large\runs\/1701664885.p
+timestamp: 1701665047 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    41      [3315.20, 158.99]       [3532.81, 267.32]       [4030.80, 369.05]
+runtime 161.81167840957642
+stats in .\tuning\large\runs\/1701665047.p
+timestamp: 1701665208 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    41      [3443.70, 165.05]       [3593.46, 289.16]       [4060.90, 380.35]
+runtime 159.18687319755554
+stats in .\tuning\large\runs\/1701665208.p
+timestamp: 1701665367 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    32      [3374.00, 148.15]       [3588.83, 236.48]       [3812.80, 394.84]
+runtime 162.7653841972351
+stats in .\tuning\large\runs\/1701665367.p
+timestamp: 1701665529 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    44      [3382.00, 140.34]       [3825.41, 251.40]       [4039.70, 656.34]
+runtime 170.8907380104065
+stats in .\tuning\large\runs\/1701665529.p
+timestamp: 1701665699 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    34      [3428.00, 150.46]       [3630.57, 199.69]       [4023.20, 240.11]
+runtime 168.859867811203
+stats in .\tuning\large\runs\/1701665699.p
+timestamp: 1701665867 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    39      [3316.90, 173.50]       [3526.51, 402.36]       [3951.20, 595.07]
+runtime 170.5477933883667
+stats in .\tuning\large\runs\/1701665867.p
+timestamp: 1701666037 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    31      [3370.80, 168.95]       [3697.17, 300.70]       [4009.60, 506.52]
+runtime 171.87647342681885
+stats in .\tuning\large\runs\/1701666037.p
+timestamp: 1701666208 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    43      [3322.40, 161.15]       [3659.48, 317.95]       [3987.90, 552.34]
+runtime 168.6422758102417
+stats in .\tuning\large\runs\/1701666208.p
+timestamp: 1701666376 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    43      [3174.60, 166.16]       [3576.42, 312.38]       [4356.90, 520.85]
+runtime 169.75204634666443
+stats in .\tuning\large\runs\/1701666376.p
+timestamp: 1701666545 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    35      [3323.10, 179.32]       [3627.96, 337.42]       [3897.40, 654.50]
+runtime 170.93988752365112
+stats in .\tuning\large\runs\/1701666545.p
+timestamp: 1701666715 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    41      [3321.60, 164.68]       [3727.71, 339.37]       [4173.30, 685.66]
+runtime 172.39335536956787
+stats in .\tuning\large\runs\/1701666715.p
+timestamp: 1701666887 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    33      [3308.90, 165.58]       [3704.71, 248.97]       [4075.40, 433.60]
+runtime 167.58124208450317
+stats in .\tuning\large\runs\/1701666887.p
+timestamp: 1701667054 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    38      [3286.50, 156.79]       [3681.90, 264.06]       [4111.30, 450.08]
+runtime 171.64409232139587
+stats in .\tuning\large\runs\/1701667054.p
+timestamp: 1701667225 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    42      [3395.20, 148.89]       [3634.07, 255.82]       [3946.20, 414.74]
+runtime 166.55069041252136
+stats in .\tuning\large\runs\/1701667225.p
+timestamp: 1701667391 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    40      [3323.40, 167.29]       [3641.40, 293.80]       [4125.90, 543.64]
+runtime 171.98864841461182
+stats in .\tuning\large\runs\/1701667391.p
+timestamp: 1701667563 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    33      [3374.00, 162.82]       [3604.34, 353.69]       [4090.50, 682.37]
+runtime 169.2233157157898
+stats in .\tuning\large\runs\/1701667563.p
+timestamp: 1701667732 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    42      [3277.10, 167.46]       [3657.29, 312.64]       [4014.10, 529.32]
+runtime 171.4581470489502
+stats in .\tuning\large\runs\/1701667732.p
+timestamp: 1701667903 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.01, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    39      [3377.90, 147.66]       [3594.31, 249.59]       [3967.70, 447.78]
+runtime 167.55224227905273
+stats in .\tuning\large\runs\/1701667903.p
+timestamp: 1701668070 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    41      [3418.40, 144.38]       [3612.94, 213.20]       [4001.00, 335.43]
+runtime 133.0681483745575
+stats in .\tuning\large\runs\/1701668070.p
+timestamp: 1701668203 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    61      [3436.60, 149.98]       [3618.76, 219.60]       [3967.60, 269.32]
+runtime 136.89656853675842
+stats in .\tuning\large\runs\/1701668203.p
+timestamp: 1701668339 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    40      [3453.40, 153.53]       [3619.78, 205.82]       [3984.10, 287.63]
+runtime 130.47499108314514
+stats in .\tuning\large\runs\/1701668339.p
+timestamp: 1701668469 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    66      [3360.60, 148.28]       [3555.33, 235.52]       [3843.80, 362.70]
+runtime 136.44399189949036
+stats in .\tuning\large\runs\/1701668469.p
+timestamp: 1701668605 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    53      [3295.80, 144.67]       [3546.17, 236.16]       [4076.80, 376.53]
+runtime 136.11658143997192
+stats in .\tuning\large\runs\/1701668605.p
+timestamp: 1701668741 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    71      [3422.80, 143.10]       [3696.47, 201.00]       [3994.90, 291.19]
+runtime 135.46022582054138
+stats in .\tuning\large\runs\/1701668741.p
+timestamp: 1701668876 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    48      [3351.70, 145.30]       [3744.47, 184.01]       [3966.60, 318.84]
+runtime 136.02306866645813
+stats in .\tuning\large\runs\/1701668876.p
+timestamp: 1701669012 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    36      [3419.10, 147.60]       [3518.65, 257.54]       [3864.40, 300.21]
+runtime 134.17965841293335
+stats in .\tuning\large\runs\/1701669012.p
+timestamp: 1701669146 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    46      [3315.90, 164.96]       [3468.11, 286.54]       [3911.10, 355.36]
+runtime 134.55883145332336
+stats in .\tuning\large\runs\/1701669146.p
+timestamp: 1701669280 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    53      [3444.50, 124.38]       [3771.09, 168.21]       [4018.30, 309.60]
+runtime 132.18019437789917
+stats in .\tuning\large\runs\/1701669280.p
+timestamp: 1701669412 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    50      [3316.50, 160.07]       [3468.06, 302.28]       [3968.00, 400.08]
+runtime 134.7273600101471
+stats in .\tuning\large\runs\/1701669412.p
+timestamp: 1701669546 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    43      [3516.80, 134.50]       [3859.30, 169.10]       [4030.60, 354.40]
+runtime 133.68076539039612
+stats in .\tuning\large\runs\/1701669546.p
+timestamp: 1701669679 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    56      [3500.80, 131.83]       [3760.03, 184.71]       [3954.50, 410.52]
+runtime 136.79045724868774
+stats in .\tuning\large\runs\/1701669679.p
+timestamp: 1701669815 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    41      [3345.00, 151.66]       [3494.59, 375.12]       [3999.10, 465.39]
+runtime 140.88446021080017
+stats in .\tuning\large\runs\/1701669815.p
+timestamp: 1701669955 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    33      [3351.70, 146.71]       [3709.45, 176.79]       [3807.40, 416.56]
+runtime 139.51016116142273
+stats in .\tuning\large\runs\/1701669955.p
+timestamp: 1701670094 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    43      [3468.00, 147.81]       [3598.91, 237.88]       [3850.40, 340.86]
+runtime 134.72885966300964
+stats in .\tuning\large\runs\/1701670094.p
+timestamp: 1701670228 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    44      [3282.00, 142.42]       [3782.37, 201.60]       [4017.90, 375.62]
+runtime 136.83853578567505
+stats in .\tuning\large\runs\/1701670228.p
+timestamp: 1701670364 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    46      [3433.10, 134.84]       [3820.06, 171.95]       [4004.00, 297.54]
+runtime 135.9950351715088
+stats in .\tuning\large\runs\/1701670364.p
+timestamp: 1701670500 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    44      [3380.40, 151.84]       [3588.11, 222.16]       [4084.40, 314.24]
+runtime 135.65163612365723
+stats in .\tuning\large\runs\/1701670500.p
+timestamp: 1701670635 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    67      [3336.80, 150.98]       [3607.28, 211.50]       [3955.20, 291.91]
+runtime 140.08939576148987
+stats in .\tuning\large\runs\/1701670635.p
+timestamp: 1701670775 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    45      [3494.50, 148.11]       [3630.61, 211.49]       [3937.10, 270.61]
+runtime 137.10535073280334
+stats in .\tuning\large\runs\/1701670775.p
+timestamp: 1701670912 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    31      [3506.60, 142.35]       [3942.55, 157.17]       [4071.50, 281.39]
+runtime 132.93381118774414
+stats in .\tuning\large\runs\/1701670912.p
+timestamp: 1701671044 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    61      [3416.40, 120.18]       [3641.84, 154.53]       [3835.40, 247.61]
+runtime 133.8403124809265
+stats in .\tuning\large\runs\/1701671044.p
+timestamp: 1701671177 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    45      [3343.90, 145.63]       [3536.67, 232.95]       [3823.30, 341.64]
+runtime 136.9343662261963
+stats in .\tuning\large\runs\/1701671177.p
+timestamp: 1701671313 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    31      [3460.30, 160.53]       [3613.18, 226.88]       [3913.80, 308.36]
+runtime 136.85652494430542
+stats in .\tuning\large\runs\/1701671313.p
+timestamp: 1701671449 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    52      [3396.30, 134.62]       [3855.77, 173.54]       [4134.50, 304.40]
+runtime 141.1381058692932
+stats in .\tuning\large\runs\/1701671449.p
+timestamp: 1701671590 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    43      [3491.10, 133.52]       [3788.17, 156.57]       [3936.40, 269.43]
+runtime 130.88842153549194
+stats in .\tuning\large\runs\/1701671590.p
+timestamp: 1701671720 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    49      [3400.00, 131.64]       [3562.79, 227.39]       [3914.90, 361.33]
+runtime 140.98246383666992
+stats in .\tuning\large\runs\/1701671720.p
+timestamp: 1701671861 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    41      [3232.30, 182.85]       [3435.60, 369.00]       [3982.70, 465.19]
+runtime 141.02961587905884
+stats in .\tuning\large\runs\/1701671861.p
+timestamp: 1701672002 -> cxmethod mate_aligned, cxpb 0.7, indpb 0.001, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    41      [3373.40, 150.42]       [3767.14, 179.72]       [3922.80, 316.10]
+runtime 137.62394332885742
+stats in .\tuning\large\runs\/1701672002.p
+timestamp: 1701672139 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    152     [4284.50, 583.21]       [4680.05, 777.75]       [5986.10, 1360.98]
+runtime 305.93682312965393
+stats in .\tuning\large\runs\/1701672139.p
+timestamp: 1701672444 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    152     [4232.30, 641.33]       [4612.28, 821.46]       [5728.40, 1277.14]
+runtime 317.62501764297485
+stats in .\tuning\large\runs\/1701672444.p
+timestamp: 1701672761 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    152     [4176.40, 673.91]       [4595.56, 859.35]       [5799.80, 1244.13]
+runtime 268.78191781044006
+stats in .\tuning\large\runs\/1701672761.p
+timestamp: 1701673029 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    152     [4108.20, 604.53]       [4570.83, 835.98]       [5743.10, 1276.73]
+runtime 254.45432209968567
+stats in .\tuning\large\runs\/1701673029.p
+timestamp: 1701673283 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    152     [4033.70, 638.61]       [4539.41, 854.79]       [5680.90, 1295.93]
+runtime 243.41087532043457
+stats in .\tuning\large\runs\/1701673283.p
+timestamp: 1701673526 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    152     [4063.10, 626.97]       [4615.06, 828.80]       [5647.40, 1255.84]
+runtime 241.0022759437561
+stats in .\tuning\large\runs\/1701673526.p
+timestamp: 1701673767 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    152     [4091.00, 655.67]       [4616.99, 837.25]       [5856.40, 1320.13]
+runtime 243.01843905448914
+stats in .\tuning\large\runs\/1701673767.p
+timestamp: 1701674010 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    152     [4147.70, 704.97]       [4556.66, 880.35]       [5740.50, 1342.88]
+runtime 248.03459787368774
+stats in .\tuning\large\runs\/1701674010.p
+timestamp: 1701674258 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    152     [4101.00, 563.52]       [4689.95, 760.55]       [5729.50, 1279.11]
+runtime 242.70721912384033
+stats in .\tuning\large\runs\/1701674258.p
+timestamp: 1701674500 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    152     [4158.20, 611.07]       [4592.62, 788.24]       [6106.10, 1247.79]
+runtime 242.37941884994507
+stats in .\tuning\large\runs\/1701674500.p
+timestamp: 1701674742 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    152     [4013.10, 602.18]       [4587.82, 806.98]       [6103.40, 1206.57]
+runtime 243.3955581188202
+stats in .\tuning\large\runs\/1701674742.p
+timestamp: 1701674985 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    152     [4202.90, 614.98]       [4678.87, 808.40]       [6377.40, 1399.85]
+runtime 237.45859503746033
+stats in .\tuning\large\runs\/1701674985.p
+timestamp: 1701675222 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    152     [4121.10, 588.34]       [4636.06, 809.14]       [6030.20, 1384.74]
+runtime 241.47470617294312
+stats in .\tuning\large\runs\/1701675222.p
+timestamp: 1701675463 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    152     [4100.80, 556.81]       [4489.61, 818.45]       [5274.00, 1233.31]
+runtime 241.53774213790894
+stats in .\tuning\large\runs\/1701675463.p
+timestamp: 1701675704 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    152     [4218.80, 637.84]       [4566.07, 852.87]       [5259.60, 1494.78]
+runtime 238.3061878681183
+stats in .\tuning\large\runs\/1701675704.p
+timestamp: 1701675942 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    152     [4173.40, 641.90]       [4581.71, 814.18]       [5841.50, 1444.93]
+runtime 244.66380333900452
+stats in .\tuning\large\runs\/1701675942.p
+timestamp: 1701676186 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    152     [4085.90, 659.24]       [4619.77, 810.52]       [5861.80, 1293.97]
+runtime 254.1956763267517
+stats in .\tuning\large\runs\/1701676186.p
+timestamp: 1701676440 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    152     [4125.00, 639.71]       [4596.80, 831.16]       [5501.60, 1405.45]
+runtime 243.4787895679474
+stats in .\tuning\large\runs\/1701676440.p
+timestamp: 1701676683 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    152     [4156.20, 612.27]       [4660.08, 763.71]       [6035.20, 1209.55]
+runtime 242.3841688632965
+stats in .\tuning\large\runs\/1701676683.p
+timestamp: 1701676925 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    152     [4173.30, 644.75]       [4612.75, 829.56]       [5968.80, 1437.27]
+runtime 241.1190950870514
+stats in .\tuning\large\runs\/1701676925.p
+timestamp: 1701677166 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    152     [4184.00, 633.53]       [4614.58, 873.01]       [5431.10, 1555.77]
+runtime 239.5417628288269
+stats in .\tuning\large\runs\/1701677166.p
+timestamp: 1701677405 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    152     [4103.40, 651.72]       [4581.42, 828.53]       [6014.00, 1180.41]
+runtime 243.385760307312
+stats in .\tuning\large\runs\/1701677405.p
+timestamp: 1701677648 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    152     [4081.50, 646.79]       [4564.89, 844.91]       [5576.20, 1366.50]
+runtime 240.21445202827454
+stats in .\tuning\large\runs\/1701677648.p
+timestamp: 1701677888 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    152     [4198.40, 669.99]       [4606.74, 849.35]       [5628.00, 1386.40]
+runtime 243.68402123451233
+stats in .\tuning\large\runs\/1701677888.p
+timestamp: 1701678131 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    152     [4162.70, 623.47]       [4642.72, 776.76]       [5847.50, 1190.98]
+runtime 245.2624328136444
+stats in .\tuning\large\runs\/1701678131.p
+timestamp: 1701678376 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    152     [4174.30, 666.02]       [4588.66, 833.70]       [5537.40, 1278.34]
+runtime 244.7785873413086
+stats in .\tuning\large\runs\/1701678376.p
+timestamp: 1701678620 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    152     [4206.40, 601.35]       [4615.49, 793.45]       [5735.40, 1257.43]
+runtime 245.20095300674438
+stats in .\tuning\large\runs\/1701678620.p
+timestamp: 1701678865 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    152     [4196.60, 662.28]       [4563.46, 871.91]       [5473.90, 1510.53]
+runtime 240.5139696598053
+stats in .\tuning\large\runs\/1701678865.p
+timestamp: 1701679105 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    152     [4200.70, 615.41]       [4574.84, 795.99]       [5560.70, 1252.77]
+runtime 241.155131816864
+stats in .\tuning\large\runs\/1701679105.p
+timestamp: 1701679346 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.1, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    152     [4099.30, 614.56]       [4581.99, 836.82]       [5880.40, 1241.06]
+runtime 240.37472939491272
+stats in .\tuning\large\runs\/1701679346.p
+timestamp: 1701679586 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    30      [3391.00, 173.91]       [3661.14, 329.19]       [3992.40, 558.37]
+runtime 146.45363068580627
+stats in .\tuning\large\runs\/1701679586.p
+timestamp: 1701679732 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    43      [3431.90, 138.94]       [3824.45, 173.40]       [3997.20, 317.93]
+runtime 146.01707673072815
+stats in .\tuning\large\runs\/1701679732.p
+timestamp: 1701679878 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    35      [3419.60, 134.96]       [3729.21, 206.99]       [3984.10, 424.49]
+runtime 145.549649477005
+stats in .\tuning\large\runs\/1701679878.p
+timestamp: 1701680023 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    36      [3369.00, 167.79]       [3518.15, 248.79]       [3798.50, 341.18]
+runtime 148.6753327846527
+stats in .\tuning\large\runs\/1701680023.p
+timestamp: 1701680171 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    43      [3376.70, 154.19]       [3625.85, 258.21]       [3925.40, 416.67]
+runtime 146.66075587272644
+stats in .\tuning\large\runs\/1701680171.p
+timestamp: 1701680317 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    47      [3261.50, 149.16]       [3541.22, 285.45]       [3945.60, 529.86]
+runtime 144.63032150268555
+stats in .\tuning\large\runs\/1701680317.p
+timestamp: 1701680461 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    55      [3348.70, 155.54]       [3587.29, 270.13]       [4222.80, 418.49]
+runtime 146.94382333755493
+stats in .\tuning\large\runs\/1701680461.p
+timestamp: 1701680607 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    36      [3400.10, 160.62]       [3816.82, 219.66]       [3979.30, 529.16]
+runtime 146.8562262058258
+stats in .\tuning\large\runs\/1701680607.p
+timestamp: 1701680753 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    36      [3382.30, 151.96]       [3823.89, 189.58]       [4062.20, 317.64]
+runtime 143.83636951446533
+stats in .\tuning\large\runs\/1701680753.p
+timestamp: 1701680896 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    41      [3322.60, 139.81]       [3430.67, 291.38]       [3969.10, 377.38]
+runtime 148.22804355621338
+stats in .\tuning\large\runs\/1701680896.p
+timestamp: 1701681044 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    47      [3422.80, 176.81]       [3691.75, 350.10]       [4290.00, 600.71]
+runtime 145.8383867740631
+stats in .\tuning\large\runs\/1701681044.p
+timestamp: 1701681189 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    31      [3334.50, 148.57]       [3496.19, 366.26]       [3952.70, 574.94]
+runtime 145.32376432418823
+stats in .\tuning\large\runs\/1701681189.p
+timestamp: 1701681334 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    34      [3343.10, 152.78]       [3645.69, 227.02]       [3919.60, 415.60]
+runtime 143.71533346176147
+stats in .\tuning\large\runs\/1701681334.p
+timestamp: 1701681477 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    58      [3372.40, 167.64]       [3671.58, 240.46]       [4119.70, 416.04]
+runtime 146.27879786491394
+stats in .\tuning\large\runs\/1701681477.p
+timestamp: 1701681623 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    46      [3260.30, 147.20]       [3662.04, 262.09]       [4131.80, 467.99]
+runtime 149.35783624649048
+stats in .\tuning\large\runs\/1701681623.p
+timestamp: 1701681772 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    38      [3425.20, 154.80]       [3745.77, 246.06]       [4110.60, 429.57]
+runtime 146.9362668991089
+stats in .\tuning\large\runs\/1701681772.p
+timestamp: 1701681918 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    37      [3456.70, 159.12]       [3684.93, 284.55]       [3932.60, 500.64]
+runtime 146.73376297950745
+stats in .\tuning\large\runs\/1701681918.p
+timestamp: 1701682064 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    60      [3327.10, 152.00]       [3713.16, 226.61]       [4047.50, 401.54]
+runtime 144.07808256149292
+stats in .\tuning\large\runs\/1701682064.p
+timestamp: 1701682208 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    40      [3370.90, 150.89]       [3562.79, 254.91]       [3901.20, 361.05]
+runtime 144.56305265426636
+stats in .\tuning\large\runs\/1701682208.p
+timestamp: 1701682352 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    37      [3330.80, 169.60]       [3726.54, 294.60]       [4116.90, 594.01]
+runtime 146.21996974945068
+stats in .\tuning\large\runs\/1701682352.p
+timestamp: 1701682498 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    37      [3425.70, 144.53]       [3630.54, 246.48]       [3982.40, 364.89]
+runtime 146.34557008743286
+stats in .\tuning\large\runs\/1701682498.p
+timestamp: 1701682644 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    40      [3423.00, 139.45]       [3612.75, 221.20]       [3892.30, 325.37]
+runtime 144.54929161071777
+stats in .\tuning\large\runs\/1701682644.p
+timestamp: 1701682788 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    45      [3425.10, 146.69]       [3676.72, 221.21]       [4082.80, 391.01]
+runtime 143.33108830451965
+stats in .\tuning\large\runs\/1701682788.p
+timestamp: 1701682931 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    41      [3335.70, 143.39]       [3763.10, 209.91]       [4097.40, 369.01]
+runtime 146.6754925251007
+stats in .\tuning\large\runs\/1701682931.p
+timestamp: 1701683077 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    33      [3308.00, 145.33]       [3479.94, 326.90]       [3879.30, 468.07]
+runtime 144.28544211387634
+stats in .\tuning\large\runs\/1701683077.p
+timestamp: 1701683221 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    40      [3310.40, 165.97]       [3534.89, 274.52]       [3821.40, 383.24]
+runtime 149.0304672718048
+stats in .\tuning\large\runs\/1701683221.p
+timestamp: 1701683370 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    35      [3406.70, 149.78]       [3620.95, 288.38]       [4130.50, 484.85]
+runtime 150.75619769096375
+stats in .\tuning\large\runs\/1701683370.p
+timestamp: 1701683520 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    35      [3373.10, 141.66]       [3526.83, 321.03]       [3919.10, 498.26]
+runtime 152.73006677627563
+stats in .\tuning\large\runs\/1701683520.p
+timestamp: 1701683672 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    39      [3516.50, 137.73]       [3784.40, 172.48]       [3946.50, 297.12]
+runtime 168.12761783599854
+stats in .\tuning\large\runs\/1701683672.p
+timestamp: 1701683840 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.01, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    48      [3334.30, 154.48]       [3612.99, 273.81]       [4059.60, 435.90]
+runtime 151.93428349494934
+stats in .\tuning\large\runs\/1701683840.p
+timestamp: 1701683991 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 37
+gen     unique  min                     avg                     max
+1999    57      [3456.30, 134.32]       [3728.95, 170.76]       [3960.50, 272.84]
+runtime 141.88257551193237
+stats in .\tuning\large\runs\/1701683991.p
+timestamp: 1701684132 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 80
+gen     unique  min                     avg                     max
+1999    60      [3432.70, 130.00]       [3831.51, 171.46]       [4222.70, 325.71]
+runtime 146.1174566745758
+stats in .\tuning\large\runs\/1701684132.p
+timestamp: 1701684278 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 84
+gen     unique  min                     avg                     max
+1999    58      [3409.60, 147.52]       [3588.31, 243.89]       [3924.30, 347.26]
+runtime 129.6491129398346
+stats in .\tuning\large\runs\/1701684278.p
+timestamp: 1701684407 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 87
+gen     unique  min                     avg                     max
+1999    33      [3503.50, 131.12]       [3649.30, 186.37]       [3875.70, 261.33]
+runtime 109.915048122406
+stats in .\tuning\large\runs\/1701684407.p
+timestamp: 1701684516 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 101
+gen     unique  min                     avg                     max
+1999    50      [3573.50, 126.52]       [3641.29, 184.37]       [3854.70, 210.25]
+runtime 114.00925612449646
+stats in .\tuning\large\runs\/1701684516.p
+timestamp: 1701684630 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 122
+gen     unique  min                     avg                     max
+1999    56      [3529.40, 137.65]       [3832.84, 171.23]       [4079.70, 239.22]
+runtime 121.37590432167053
+stats in .\tuning\large\runs\/1701684630.p
+timestamp: 1701684751 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 125
+gen     unique  min                     avg                     max
+1999    37      [3389.10, 144.42]       [3484.93, 261.99]       [3770.30, 311.49]
+runtime 113.47868347167969
+stats in .\tuning\large\runs\/1701684751.p
+timestamp: 1701684864 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 130
+gen     unique  min                     avg                     max
+1999    51      [3498.50, 126.06]       [3743.67, 159.09]       [3946.60, 248.22]
+runtime 114.55582308769226
+stats in .\tuning\large\runs\/1701684864.p
+timestamp: 1701684978 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 139
+gen     unique  min                     avg                     max
+1999    41      [3451.40, 138.62]       [3776.17, 166.56]       [3923.10, 323.22]
+runtime 121.24700498580933
+stats in .\tuning\large\runs\/1701684978.p
+timestamp: 1701685099 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 149
+gen     unique  min                     avg                     max
+1999    55      [3372.30, 136.27]       [3663.40, 181.14]       [3869.10, 279.25]
+runtime 114.26165723800659
+stats in .\tuning\large\runs\/1701685099.p
+timestamp: 1701685213 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 167
+gen     unique  min                     avg                     max
+1999    53      [3463.70, 149.29]       [3683.18, 217.35]       [4000.80, 350.33]
+runtime 117.43199157714844
+stats in .\tuning\large\runs\/1701685213.p
+timestamp: 1701685330 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 174
+gen     unique  min                     avg                     max
+1999    43      [3398.10, 153.01]       [3535.19, 249.39]       [3825.90, 331.51]
+runtime 121.21263790130615
+stats in .\tuning\large\runs\/1701685330.p
+timestamp: 1701685451 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 186
+gen     unique  min                     avg                     max
+1999    36      [3512.00, 118.75]       [3692.96, 165.57]       [3914.00, 237.87]
+runtime 114.52776312828064
+stats in .\tuning\large\runs\/1701685451.p
+timestamp: 1701685565 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 197
+gen     unique  min                     avg                     max
+1999    38      [3400.60, 158.88]       [3520.30, 291.82]       [3965.40, 344.60]
+runtime 117.4500629901886
+stats in .\tuning\large\runs\/1701685565.p
+timestamp: 1701685682 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 289
+gen     unique  min                     avg                     max
+1999    28      [3515.30, 140.29]       [3736.65, 258.10]       [4048.90, 409.04]
+runtime 117.74757838249207
+stats in .\tuning\large\runs\/1701685682.p
+timestamp: 1701685799 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 299
+gen     unique  min                     avg                     max
+1999    43      [3356.00, 161.88]       [3605.69, 220.31]       [3810.20, 355.89]
+runtime 116.26317262649536
+stats in .\tuning\large\runs\/1701685799.p
+timestamp: 1701685915 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 303
+gen     unique  min                     avg                     max
+1999    41      [3464.40, 143.45]       [3850.72, 172.45]       [3999.90, 293.66]
+runtime 113.45102763175964
+stats in .\tuning\large\runs\/1701685915.p
+timestamp: 1701686028 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 324
+gen     unique  min                     avg                     max
+1999    32      [3449.10, 160.24]       [3593.94, 239.00]       [3885.10, 304.18]
+runtime 114.43583798408508
+stats in .\tuning\large\runs\/1701686028.p
+timestamp: 1701686142 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 347
+gen     unique  min                     avg                     max
+1999    34      [3399.70, 162.94]       [3551.03, 264.03]       [3840.80, 345.52]
+runtime 113.99851036071777
+stats in .\tuning\large\runs\/1701686142.p
+timestamp: 1701686256 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 372
+gen     unique  min                     avg                     max
+1999    43      [3390.40, 158.58]       [3635.16, 263.05]       [4058.40, 374.60]
+runtime 120.8738386631012
+stats in .\tuning\large\runs\/1701686256.p
+timestamp: 1701686376 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 403
+gen     unique  min                     avg                     max
+1999    39      [3454.80, 138.71]       [3620.60, 191.62]       [4032.00, 246.25]
+runtime 121.17137455940247
+stats in .\tuning\large\runs\/1701686376.p
+timestamp: 1701686497 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 451
+gen     unique  min                     avg                     max
+1999    45      [3376.20, 158.26]       [3729.35, 184.87]       [3875.00, 277.34]
+runtime 115.83995175361633
+stats in .\tuning\large\runs\/1701686497.p
+timestamp: 1701686612 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 453
+gen     unique  min                     avg                     max
+1999    51      [3561.40, 131.65]       [3793.68, 150.81]       [3929.50, 208.10]
+runtime 108.40608596801758
+stats in .\tuning\large\runs\/1701686612.p
+timestamp: 1701686720 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 457
+gen     unique  min                     avg                     max
+1999    52      [3359.00, 147.03]       [3530.43, 267.66]       [3912.00, 367.95]
+runtime 115.04710936546326
+stats in .\tuning\large\runs\/1701686720.p
+timestamp: 1701686835 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 491
+gen     unique  min                     avg                     max
+1999    63      [3418.60, 136.79]       [3556.19, 204.75]       [3886.90, 270.82]
+runtime 112.95360279083252
+stats in .\tuning\large\runs\/1701686835.p
+timestamp: 1701686947 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 504
+gen     unique  min                     avg                     max
+1999    32      [3511.40, 154.99]       [3586.36, 265.49]       [3961.20, 299.44]
+runtime 115.73659110069275
+stats in .\tuning\large\runs\/1701686947.p
+timestamp: 1701687062 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 544
+gen     unique  min                     avg                     max
+1999    64      [3300.40, 164.75]       [3552.56, 245.04]       [4055.90, 314.10]
+runtime 118.29899549484253
+stats in .\tuning\large\runs\/1701687062.p
+timestamp: 1701687180 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 545
+gen     unique  min                     avg                     max
+1999    36      [3434.80, 142.91]       [3656.94, 186.94]       [3865.10, 275.29]
+runtime 114.74195003509521
+stats in .\tuning\large\runs\/1701687180.p
+timestamp: 1701687294 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 556
+gen     unique  min                     avg                     max
+1999    33      [3405.40, 134.07]       [3753.28, 166.08]       [3869.00, 410.11]
+runtime 109.40782403945923
+stats in .\tuning\large\runs\/1701687294.p
+timestamp: 1701687403 -> cxmethod mate_aligned, cxpb 0.8, indpb 0.001, mu 152, ngen 2000, seed 558
+gen     unique  min                     avg                     max
+1999    43      [3424.40, 155.48]       [3893.54, 200.30]       [4100.30, 387.04]
+runtime 118.31443166732788
+stats in .\tuning\large\runs\/1701687403.p
+(.venv) PS C:\Users\usuario\Desktop\ae>
