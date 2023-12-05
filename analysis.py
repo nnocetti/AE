@@ -96,7 +96,6 @@ if __name__ == "__main__":
 
     params = [';'.join([str(p) for p in cb]) for cb in itertools.product(INDPB, CXPB, CXMETHOD, MU, NGEN)]
     rhv = {}
-    print('cxmethod;cxpb;indpb;mu;ngen;median;mean;stdev;kstest')
     for param_id in sorted(raw_data.keys()):
         if param_id in params:
             rhv[param_id] = []
@@ -110,8 +109,7 @@ if __name__ == "__main__":
                 rhv[param_id].append(hv/ref_hv)
             print(f"{median(rhv[param_id])};{mean(rhv[param_id])};{stdev(rhv[param_id])};{stats.kstest(rhv[param_id], 'norm').pvalue}")
 
-    print(stats.friedmanchisquare(*rhv.values()))
-    #print(stats.kruskal(*rhv.values()))
+    print(stats.kruskal(*rhv.values()))
     
     matpvalue = []
     matcolor = []
@@ -124,10 +122,6 @@ if __name__ == "__main__":
         for j, le in enumerate(rhv.keys()):
                 mannwhitneyu = stats.mannwhitneyu(rhv[gt], rhv[le], alternative='greater')
                 result = f'{gt} > {le}' if mannwhitneyu.pvalue < 0.05 else f'{gt} . {le}'
-                print(f'mannwhitneyu: {result: <45} ... pvalue: {mannwhitneyu.pvalue}')
-                #wilcoxon = stats.wilcoxon(rhv[gt], rhv[le], alternative='greater')
-                #result = f'{gt} > {le}' if wilcoxon.pvalue < 0.05 else f'{gt} . {le}'
-                #print(f'wilcoxon:     {result: <45} ... pvalue: {wilcoxon.pvalue}')
                 matpvalue[-1].append(mannwhitneyu.pvalue)
                 if i == j:
                     matcolor[-1].append((1.,1.,1.))
@@ -158,7 +152,7 @@ if __name__ == "__main__":
     ax.tick_params(which='minor', top=False, bottom=False, left=False)
 
     plt.tight_layout()
-    plt.show()
+    plt.savefig(f'{path}/{os.path.basename(os.path.normpath(path))}.png')
     
     runtime = time()-start
     print(f'runtime {runtime}')
