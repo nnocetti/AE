@@ -14,17 +14,12 @@ from deap.benchmarks.tools import igd, diversity, convergence, hypervolume
 import matplotlib.pyplot as plt
 
 
-CXMETHOD = ['mate', 'mate_aligned']
-CXPB = [0.6, 0.7, 0.8]
-INDPB = [0.1, 0.01, 0.001]
-MU = [152]
-NGEN = [2000]
+CXMETHOD = ['mate_aligned']
+CXPB = [0.6]
+INDPB = [0.01]
+MU = [100, 152, 200]
+NGEN = [1500, 2000, 2500]
 
-#CXMETHOD = ['mate']
-#CXPB = [0.7]
-#INDPB = [0.01]
-#MU = [100, 152, 200, 252]
-#NGEN = [1500, 2000, 2500, 3000]
 
 def load_inst_file(file):
     with open(file) as f:
