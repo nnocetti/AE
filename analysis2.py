@@ -82,6 +82,7 @@ if __name__ == "__main__":
         data = {}
         data['timestamp'] = timestamp
         data['runfront'] = run_front
+        data['runtime'] = runtime
         raw_data[param_id].append(data)
 
     ref_front_values = [ind.fitness.values for ind in ref_front]
@@ -93,18 +94,20 @@ if __name__ == "__main__":
     rhv = {}
     for param_id in sorted(raw_data.keys()):
         if param_id in params:
+            runtime = []
             rhv[param_id] = []
             print(param_id, end=';')
             for data in raw_data[param_id]:
+                #print(f"{data['timestamp']}.p")
+                runtime.append(data['runtime'])
                 #invgd = igd([ind.fitness.values for ind in run_front], ref_front_values)
                 #conv = convergence(run_front, ref_front_values)
                 #div = diversity(run_front, ref_front_values[0], ref_front_values[-1])
-                hv = hypervolume(data['runfront'], nadir_point)/ref_hv
-                #print(f"{data['timestamp']}: {hv}")
+                hv = hypervolume(data['runfront'], nadir_point)
                 rhv[param_id].append(hv/ref_hv)
-            print(f"{median(rhv[param_id])};{mean(rhv[param_id])};{stdev(rhv[param_id])};{stats.kstest(rhv[param_id], 'norm').pvalue}")
+            print(f"{median(rhv[param_id]):.4f};{mean(rhv[param_id]):.4f};{stdev(rhv[param_id]):.4f};{mean(runtime):.1f};{stdev(runtime):.2f};{stats.kstest(rhv[param_id], 'norm').pvalue:.2E}")
 
-    print(stats.kruskal(*rhv.values()))
+    print(f'kruskal pvalue={stats.kruskal(*rhv.values()).pvalue:.2E}')
     
     matpvalue = []
     matcolor = []
@@ -116,7 +119,6 @@ if __name__ == "__main__":
         matcolor.append([])
         for j, le in enumerate(rhv.keys()):
                 mannwhitneyu = stats.mannwhitneyu(rhv[gt], rhv[le], alternative='greater')
-                result = f'{gt} > {le}' if mannwhitneyu.pvalue < 0.05 else f'{gt} . {le}'
                 matpvalue[-1].append(mannwhitneyu.pvalue)
                 if i == j:
                     matcolor[-1].append((1.,1.,1.))
@@ -129,7 +131,7 @@ if __name__ == "__main__":
                 else: 
                     matcolor[-1].append((0.937,0.231,0.173))
 
-    fig, ax = plt.subplots(figsize=(10,10))
+    fig, ax = plt.subplots(figsize=(5,5))
 
     ax.matshow(matcolor)
 
