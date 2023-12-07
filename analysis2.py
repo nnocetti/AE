@@ -11,7 +11,7 @@ from deap.benchmarks.tools import igd, diversity, convergence, hypervolume
 
 import matplotlib.pyplot as plt
 
-from .show import load_run_file
+from show import load_run_file
 
 
 CXMETHOD = ['mate_aligned']
