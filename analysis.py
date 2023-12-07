@@ -111,7 +111,7 @@ if __name__ == "__main__":
     yticks = []
     for i, gt in enumerate(rhv.keys()):
         indpb, cxpb, cxmethod, mu, ngen = gt.split(';')
-        yticks.append(f'{indpb};{cxpb};{cxmethod} - {i}')
+        yticks.append(f'{mu};{ngen} - {i}')
         matpvalue.append([])
         matcolor.append([])
         for j, le in enumerate(rhv.keys()):
@@ -137,10 +137,10 @@ if __name__ == "__main__":
         for j, cell in enumerate(row):
             ax.text(j, i, f'{cell:.2f}', va='center', ha='center')
 
-    plt.yticks(range(18), yticks)
+    plt.yticks(range(len(rhv)), yticks)
     # Minor ticks
-    ax.set_xticks([x-0.5 for x in range(1,18)], minor=True)
-    ax.set_yticks([x-0.5 for x in range(1,18)], minor=True)
+    ax.set_xticks([x-0.5 for x in range(1,len(rhv))], minor=True)
+    ax.set_yticks([x-0.5 for x in range(1,len(rhv))], minor=True)
     # Gridlines based on minor ticks
     ax.grid(which='minor', color='w', linestyle='-', linewidth=2)
     # Remove minor ticks
