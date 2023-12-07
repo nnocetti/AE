@@ -1,11 +1,31 @@
-import pickle
 import os
 import sys
+import pickle
 
 from deap.tools import ParetoFront
 import matplotlib.pyplot as plt
 
-from analysis import load_run_file
+
+def load_run_file(file):
+    with open(file, 'rb') as f:
+        try:
+            data = pickle.load(f)
+            instance = data['instance']
+            timestamp = data['timestamp']
+            runtime = data['runtime']
+            cxmethod = data['cxmethod']
+            cxpb = data['cxpb']
+            indpb = data['indpb']
+            mu = data['mu']
+            ngen = data['ngen']
+            seed = data['seed']
+            logbook = data['logbook']
+            pop = data['pop']
+        except:
+            print(f'Unable to load file {file}')
+            exit(1)
+    return (instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

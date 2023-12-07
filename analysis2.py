@@ -1,6 +1,4 @@
 import os
-import json
-import pickle
 import sys
 from time import time
 import itertools
@@ -13,44 +11,14 @@ from deap.benchmarks.tools import igd, diversity, convergence, hypervolume
 
 import matplotlib.pyplot as plt
 
+from .show import load_run_file
+
 
 CXMETHOD = ['mate_aligned']
 CXPB = [0.6]
 INDPB = [0.01]
 MU = [100, 152, 200]
 NGEN = [1500, 2000, 2500]
-
-
-def load_inst_file(file):
-    with open(file) as f:
-        try:
-            data = json.load(f)
-            sources = data['sources']
-            targets = data['targets']
-        except:
-            print(f'Unable to load file {file}')
-            exit(1)
-    return sources, targets
-
-def load_run_file(file):
-    with open(file, 'rb') as f:
-        try:
-            data = pickle.load(f)
-            instance = data['instance']
-            timestamp = data['timestamp']
-            runtime = data['runtime']
-            cxmethod = data['cxmethod']
-            cxpb = data['cxpb']
-            indpb = data['indpb']
-            mu = data['mu']
-            ngen = data['ngen']
-            seed = data['seed']
-            logbook = data['logbook']
-            pop = data['pop']
-        except:
-            print(f'Unable to load file {file}')
-            exit(1)
-    return (instance, timestamp, runtime, cxmethod, cxpb, indpb, mu, ngen, seed, logbook, pop)
 
 
 if __name__ == "__main__":
@@ -60,9 +28,6 @@ if __name__ == "__main__":
         print(f'Usage:  analysis.py <PATH>')
         exit(1)
     path = sys.argv[1]
-
-    inst_file = f'{path}/{os.path.basename(os.path.normpath(path))}.json'
-    (sources, targets) = load_inst_file(inst_file)
 
     (dirpath, dirnames, filenames) = next(os.walk(f'{path}/runs'))
     if not filenames:

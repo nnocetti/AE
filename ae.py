@@ -5,7 +5,7 @@ import os
 import sys
 
 import nsga2
-from analysis import load_inst_file
+
 
 CXMETHOD = ['mate_aligned']
 CXPB = [0.6]
@@ -14,6 +14,18 @@ MU = [152]
 NGEN = [1500, 2500]
 #SEEDS = [37, 80, 84, 87, 101, 122, 125, 130, 139, 149, 167, 174, 186, 197, 289, 299, 303, 324, 347, 372, 403, 451, 453, 457, 491, 504, 544, 545, 556, 558, 594, 595, 632, 641, 685, 723, 777, 800, 805, 807, 821, 836, 872, 899, 946, 963, 967, 992, 993, 994]
 SEEDS = [37, 80, 84, 87, 101, 122, 125, 130, 139, 149, 167, 174, 186, 197, 289, 299, 303, 324, 347, 372, 403, 451, 453, 457, 491, 504, 544, 545, 556, 558]
+
+
+def load_inst_file(file):
+    with open(file) as f:
+        try:
+            data = json.load(f)
+            sources = data['sources']
+            targets = data['targets']
+        except:
+            print(f'Unable to load file {file}')
+            exit(1)
+    return sources, targets
 
 
 if __name__ == "__main__":
