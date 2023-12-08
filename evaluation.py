@@ -28,7 +28,7 @@ class Evaluation:
                 data = self.session.get(url).json()
                 self.src2tgt = data['durations']
                 for lst in self.src2tgt:
-                    del lst[:3]
+                    del lst[:len(self.sources)]
             except ConnectionError as error:
                 if j < 2:
                     continue
