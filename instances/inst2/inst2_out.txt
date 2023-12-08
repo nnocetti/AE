@@ -1,0 +1,251 @@
+(.venv) PS C:\Users\usuario\Desktop\AE> .\ae.py .\instances\inst2\inst2.json .\instances\inst2\runs\
+timestamp: 1701979965 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 37
+gen     unique  min                     avg                     max
+2499    69      [2921.60, 77.67]        [3402.93, 154.97]       [3711.90, 470.79]
+runtime 264.2546317577362
+stats in .\instances\inst2\runs\/1701979965.p
+timestamp: 1701980229 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 80
+gen     unique  min                     avg                     max
+2499    74      [2857.30, 99.15]        [3298.63, 190.39]       [3581.80, 555.62]
+runtime 263.43011808395386
+stats in .\instances\inst2\runs\/1701980229.p
+timestamp: 1701980492 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 84
+gen     unique  min                     avg                     max
+2499    69      [2785.90, 90.64]        [3331.45, 167.65]       [3678.90, 483.76]
+runtime 265.16903138160706
+stats in .\instances\inst2\runs\/1701980492.p
+timestamp: 1701980757 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 87
+gen     unique  min                     avg                     max
+2499    72      [2823.80, 100.41]       [3096.86, 285.71]       [3748.50, 468.24]
+runtime 267.28088426589966
+stats in .\instances\inst2\runs\/1701980757.p
+timestamp: 1701981024 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 101
+gen     unique  min                     avg                     max
+2499    78      [2881.30, 93.93]        [3192.64, 285.55]       [3899.50, 520.63]
+runtime 271.0235550403595
+stats in .\instances\inst2\runs\/1701981024.p
+timestamp: 1701981295 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 122
+gen     unique  min                     avg                     max
+2499    77      [2887.70, 107.43]       [3222.61, 244.69]       [3701.60, 509.50]
+runtime 270.19901752471924
+stats in .\instances\inst2\runs\/1701981295.p
+timestamp: 1701981565 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 125
+gen     unique  min                     avg                     max
+2499    76      [2880.60, 95.19]        [3302.64, 183.65]       [3630.10, 582.78]
+runtime 267.57863450050354
+stats in .\instances\inst2\runs\/1701981565.p
+timestamp: 1701981832 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 130
+gen     unique  min                     avg                     max
+2499    53      [2934.10, 110.09]       [3415.31, 169.72]       [3621.70, 497.71]
+runtime 258.08808159828186
+stats in .\instances\inst2\runs\/1701981832.p
+timestamp: 1701982090 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 139
+gen     unique  min                     avg                     max
+2499    66      [2851.20, 83.64]        [3212.64, 225.74]       [3714.60, 453.65]
+runtime 274.4558205604553
+stats in .\instances\inst2\runs\/1701982090.p
+timestamp: 1701982364 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 149
+gen     unique  min                     avg                     max
+2499    52      [2935.90, 98.61]        [3377.02, 164.12]       [3676.70, 371.86]
+runtime 260.9944062232971
+stats in .\instances\inst2\runs\/1701982364.p
+timestamp: 1701982625 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 167
+gen     unique  min                     avg                     max
+2499    73      [2885.50, 88.78]        [3324.33, 144.13]       [3668.90, 276.57]
+runtime 255.35809588432312
+stats in .\instances\inst2\runs\/1701982625.p
+timestamp: 1701982880 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 174
+gen     unique  min                     avg                     max
+2499    68      [2832.40, 88.92]        [3309.71, 192.92]       [3716.60, 478.76]
+runtime 270.49233627319336
+stats in .\instances\inst2\runs\/1701982880.p
+timestamp: 1701983150 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 186
+gen     unique  min                     avg                     max
+2499    79      [2812.50, 109.61]       [3310.98, 198.15]       [3758.60, 442.49]
+runtime 277.97623682022095
+stats in .\instances\inst2\runs\/1701983150.p
+timestamp: 1701983427 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 197
+gen     unique  min                     avg                     max
+2499    95      [2781.80, 106.44]       [3139.22, 208.98]       [3522.10, 533.72]
+runtime 269.74405169487
+stats in .\instances\inst2\runs\/1701983427.p
+timestamp: 1701983696 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 289
+gen     unique  min                     avg                     max
+2499    63      [2864.10, 95.49]        [3090.82, 337.31]       [3750.10, 523.45]
+runtime 275.7282865047455
+stats in .\instances\inst2\runs\/1701983696.p
+timestamp: 1701983971 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 299
+gen     unique  min                     avg                     max
+2499    71      [2908.10, 98.31]        [3354.01, 176.38]       [3624.30, 416.14]
+runtime 270.4141447544098
+stats in .\instances\inst2\runs\/1701983971.p
+timestamp: 1701984241 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 303
+gen     unique  min                     avg                     max
+2499    80      [2897.40, 80.33]        [3359.69, 155.05]       [3777.20, 391.18]
+runtime 275.1648967266083
+stats in .\instances\inst2\runs\/1701984241.p
+timestamp: 1701984516 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 324
+gen     unique  min                     avg                     max
+2499    73      [2804.70, 120.28]       [3341.65, 190.73]       [3639.10, 545.86]
+runtime 274.8476722240448
+stats in .\instances\inst2\runs\/1701984516.p
+timestamp: 1701984790 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 347
+gen     unique  min                     avg                     max
+2499    70      [2880.40, 97.94]        [3369.15, 197.16]       [3731.50, 656.75]
+runtime 258.51197052001953
+stats in .\instances\inst2\runs\/1701984790.p
+timestamp: 1701985048 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 372
+gen     unique  min                     avg                     max
+2499    70      [2909.00, 93.27]        [3130.79, 268.32]       [3556.70, 442.35]
+runtime 271.44752860069275
+stats in .\instances\inst2\runs\/1701985048.p
+timestamp: 1701985319 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 403
+gen     unique  min                     avg                     max
+2499    62      [2856.00, 136.54]       [3284.99, 202.13]       [3502.50, 543.25]
+runtime 252.90125942230225
+stats in .\instances\inst2\runs\/1701985319.p
+timestamp: 1701985571 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 451
+gen     unique  min                     avg                     max
+2499    72      [2783.30, 105.46]       [3118.21, 230.18]       [3737.60, 356.64]
+runtime 263.2376801967621
+stats in .\instances\inst2\runs\/1701985571.p
+timestamp: 1701985834 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 453
+gen     unique  min                     avg                     max
+2499    83      [2807.30, 99.90]        [3263.70, 185.62]       [3604.10, 493.56]
+runtime 260.11027121543884
+stats in .\instances\inst2\runs\/1701985834.p
+timestamp: 1701986094 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 457
+gen     unique  min                     avg                     max
+2499    56      [2837.70, 93.18]        [3217.47, 214.23]       [3648.00, 452.90]
+runtime 249.7543396949768
+stats in .\instances\inst2\runs\/1701986094.p
+timestamp: 1701986343 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 491
+gen     unique  min                     avg                     max
+2499    65      [2938.70, 110.40]       [3193.29, 212.05]       [3636.60, 401.90]
+runtime 260.8982427120209
+stats in .\instances\inst2\runs\/1701986343.p
+timestamp: 1701986603 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 504
+gen     unique  min                     avg                     max
+2499    74      [2828.60, 85.67]        [3354.39, 185.90]       [3724.20, 526.83]
+runtime 270.36023330688477
+stats in .\instances\inst2\runs\/1701986603.p
+timestamp: 1701986873 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 544
+gen     unique  min                     avg                     max
+2499    61      [2886.20, 101.42]       [3379.07, 161.76]       [3639.90, 351.15]
+runtime 250.54164695739746
+stats in .\instances\inst2\runs\/1701986873.p
+timestamp: 1701987123 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 545
+gen     unique  min                     avg                     max
+2499    65      [2904.60, 87.26]        [3439.91, 134.47]       [3679.10, 336.47]
+runtime 254.86945271492004
+stats in .\instances\inst2\runs\/1701987123.p
+timestamp: 1701987377 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 556
+gen     unique  min                     avg                     max
+2499    77      [2822.90, 98.79]        [3297.58, 184.84]       [3730.70, 494.88]
+runtime 260.3860137462616
+stats in .\instances\inst2\runs\/1701987377.p
+timestamp: 1701987637 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 558
+gen     unique  min                     avg                     max
+2499    85      [2806.90, 90.11]        [3295.86, 186.61]       [3691.60, 489.68]
+runtime 262.590838432312
+stats in .\instances\inst2\runs\/1701987637.p
+timestamp: 1701987899 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 594
+gen     unique  min                     avg                     max
+2499    61      [2817.90, 89.16]        [3261.86, 212.21]       [3742.70, 427.13]
+runtime 265.5357723236084
+stats in .\instances\inst2\runs\/1701987899.p
+timestamp: 1701988164 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 595
+gen     unique  min                     avg                     max
+2499    69      [2798.80, 107.42]       [3241.10, 252.04]       [3695.90, 578.80]
+runtime 259.3104557991028
+stats in .\instances\inst2\runs\/1701988164.p
+timestamp: 1701988423 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 632
+gen     unique  min                     avg                     max
+2499    70      [2814.40, 86.45]        [3313.53, 168.68]       [3655.80, 486.65]
+runtime 258.4588782787323
+stats in .\instances\inst2\runs\/1701988423.p
+timestamp: 1701988681 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 641
+gen     unique  min                     avg                     max
+2499    79      [2848.20, 89.22]        [3257.44, 190.13]       [3546.10, 463.70]
+runtime 258.46381521224976
+stats in .\instances\inst2\runs\/1701988681.p
+timestamp: 1701988939 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 685
+gen     unique  min                     avg                     max
+2499    69      [2902.90, 91.68]        [3244.90, 216.24]       [3738.60, 358.80]
+runtime 258.0891647338867
+stats in .\instances\inst2\runs\/1701988939.p
+timestamp: 1701989197 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 723
+gen     unique  min                     avg                     max
+2499    69      [2738.80, 111.46]       [3308.67, 182.96]       [3644.70, 458.76]
+runtime 2517.4690170288086
+stats in .\instances\inst2\runs\/1701989197.p
+timestamp: 1701991714 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 777
+gen     unique  min                     avg                     max
+2499    55      [2874.00, 104.34]       [3422.92, 173.76]       [3619.50, 515.69]
+runtime 223.20553374290466
+stats in .\instances\inst2\runs\/1701991714.p
+timestamp: 1701991937 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 800
+gen     unique  min                     avg                     max
+2499    85      [2901.50, 93.75]        [3309.69, 184.62]       [3698.00, 641.27]
+runtime 227.02825117111206
+stats in .\instances\inst2\runs\/1701991937.p
+timestamp: 1701992164 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 805
+gen     unique  min                     avg                     max
+2499    63      [2754.80, 92.91]        [3375.14, 161.76]       [3667.20, 497.00]
+runtime 228.44959259033203
+stats in .\instances\inst2\runs\/1701992164.p
+timestamp: 1701992392 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 807
+gen     unique  min                     avg                     max
+2499    57      [2847.10, 108.11]       [3532.00, 169.57]       [3885.40, 448.19]
+runtime 228.28444123268127
+stats in .\instances\inst2\runs\/1701992392.p
+timestamp: 1701992620 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 821
+gen     unique  min                     avg                     max
+2499    85      [2728.40, 89.26]        [3116.26, 294.75]       [3552.90, 766.03]
+runtime 230.71291756629944
+stats in .\instances\inst2\runs\/1701992620.p
+timestamp: 1701992850 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 836
+gen     unique  min                     avg                     max
+2499    79      [2801.60, 103.54]       [3167.90, 214.00]       [3662.30, 414.35]
+runtime 222.35641527175903
+stats in .\instances\inst2\runs\/1701992850.p
+timestamp: 1701993072 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 872
+gen     unique  min                     avg                     max
+2499    83      [2881.50, 100.20]       [3282.43, 210.36]       [3723.50, 491.00]
+runtime 220.33518171310425
+stats in .\instances\inst2\runs\/1701993072.p
+timestamp: 1701993292 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 899
+gen     unique  min                     avg                     max
+2499    63      [2844.70, 79.08]        [3424.84, 171.33]       [3821.90, 489.67]
+runtime 218.8208360671997
+stats in .\instances\inst2\runs\/1701993292.p
+timestamp: 1701993510 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 946
+gen     unique  min                     avg                     max
+2499    77      [2887.70, 99.45]        [3285.12, 167.19]       [3570.40, 495.22]
+runtime 212.19750094413757
+stats in .\instances\inst2\runs\/1701993510.p
+timestamp: 1701993722 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 963
+gen     unique  min                     avg                     max
+2499    85      [2782.10, 99.60]        [3263.71, 235.64]       [3765.10, 585.84]
+runtime 215.66443729400635
+stats in .\instances\inst2\runs\/1701993722.p
+timestamp: 1701993937 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 967
+gen     unique  min                     avg                     max
+2499    67      [2902.70, 88.90]        [3206.45, 205.04]       [3746.50, 335.67]
+runtime 214.08894538879395
+stats in .\instances\inst2\runs\/1701993937.p
+timestamp: 1701994151 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 992
+gen     unique  min                     avg                     max
+2499    69      [2820.00, 94.29]        [3324.48, 189.46]       [3687.60, 530.88]
+runtime 210.6225528717041
+stats in .\instances\inst2\runs\/1701994151.p
+timestamp: 1701994361 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 993
+gen     unique  min                     avg                     max
+2499    68      [2827.70, 90.43]        [3416.31, 163.30]       [3751.30, 446.26]
+runtime 210.20418286323547
+stats in .\instances\inst2\runs\/1701994361.p
+timestamp: 1701994571 -> cxmethod mate_aligned, cxpb 0.6, indpb 0.01, mu 200, ngen 2500, seed 994
+gen     unique  min                     avg                     max
+2499    63      [2802.40, 107.94]       [3322.01, 161.01]       [3576.30, 358.77]
+runtime 214.91640424728394
+stats in .\instances\inst2\runs\/1701994571.p
