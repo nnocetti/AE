@@ -1,5 +1,6 @@
 import sys
 import copy
+from time import time
 
 import numpy as np
 
@@ -17,6 +18,7 @@ if __name__ == "__main__":
     last_order_time = max(targets, key=lambda t: t[0])[0]
     targets = [(last_order_time-t[0],t[1],t[2]) for t in targets]
 
+    start = time()
     eval = Evaluation(sources, targets)
 
     src2tgt = copy.deepcopy(eval.src2tgt)
@@ -46,5 +48,8 @@ if __name__ == "__main__":
     for i, path in enumerate(sol):
         src.extend([i] * len(path))
         tgt.extend(path)
+    print(src)
+    print(tgt)
     print(f'{eval.evaluate((src , tgt))}')
+    print(f'runtime {time()-start}')
 

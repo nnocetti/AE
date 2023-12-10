@@ -70,7 +70,7 @@ if __name__ == "__main__":
                 #div = diversity(run_front, ref_front_values[0], ref_front_values[-1])
                 hv = hypervolume(data['runfront'], nadir_point)
                 rhv[param_id].append(hv/ref_hv)
-            print(f"{median(rhv[param_id]):.4f};{mean(rhv[param_id]):.4f};{stdev(rhv[param_id]):.4f};{mean(runtime):.1f};{stdev(runtime):.2f};{stats.kstest(rhv[param_id], 'norm').pvalue:.2E}")
+            print(f"{median(rhv[param_id]):.4f};{mean(rhv[param_id]):.4f};{stdev(rhv[param_id]):.4f};{mean(runtime):.1f};{stdev(runtime):.2f};{stats.normaltest(rhv[param_id]).pvalue:.3f}")
 
     print(f'kruskal pvalue={stats.kruskal(*rhv.values()).pvalue:.2E}')
     
