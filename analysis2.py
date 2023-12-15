@@ -15,7 +15,7 @@ from show import load_run_file
 
 
 CXMETHOD = ['mate_aligned']
-CXPB = [0.6]
+CXPB = [0.7]
 INDPB = [0.01]
 MU = [100, 152, 200]
 NGEN = [1500, 2000, 2500]

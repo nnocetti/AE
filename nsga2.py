@@ -6,7 +6,7 @@ from deap import creator
 from deap import tools
 
 from evaluation import Evaluation
-
+from greedy import greedy
 
 def minimum(pop):
     return f"[{min(pop, key=lambda ind: ind.fitness.values[0]).fitness.values[0]:.2f}, {min(pop, key=lambda ind: ind.fitness.values[1]).fitness.values[1]:.2f}]"
@@ -111,7 +111,9 @@ def nsga2(sources, targets, *, cxmethod, cxpb, indpb, mu, ngen, seed=None):
     logbook = tools.Logbook()
     logbook.header = "gen", "unique", "min", "avg", "max"
 
-    pop = toolbox.population(n=mu)
+    gind=greedy(eval)
+    pop = toolbox.population(n=mu-1)
+    pop.append(creator.Individual(gind))
 
     # Evaluate the individuals with an invalid fitness
     invalid_ind = [ind for ind in pop if not ind.fitness.valid]
