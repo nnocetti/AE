@@ -26,15 +26,15 @@ def greedy(eval: Evaluation):
     src_count = len(eval.src2tgt)
     tgt_count = len(eval.tgt2tgt)
 
-    src_clycled = []
+    src_cycled = []
     for i in range(src_count):
         cycled = cycle(range(src_count))  # cycle thorugh the list 'l'
         skipped = dropwhile(lambda x: x != i, cycled)  # drop the values until x==i
         sliced = islice(skipped, None, src_count)  # take the first len(l) values
-        src_clycled.append(list(sliced))
+        src_cycled.append(list(sliced))
 
 
-    for perm in src_clycled:
+    for perm in src_cycled:
         src2tgt = copy.deepcopy(eval.src2tgt)
         tgt2tgt = copy.deepcopy(eval.tgt2tgt)
 
